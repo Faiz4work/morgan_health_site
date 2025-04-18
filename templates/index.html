@@ -1,0 +1,1653 @@
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="IE_RM_OFF" content="true">
+	<title>{% block title %}Mercy Medical Staffing | Home Healthcare Services{% endblock %}</title>
+	
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+	<link rel="preload" data-rocket-preload="" as="image"
+		href="{% static 'images/watercolor-2.webp' %}"
+		fetchpriority="high">
+	<link rel="apple-touch-icon" sizes="180x180" href="{% static 'images/apple-touch-icon.png' %}">
+	<link rel="icon" type="image/png" sizes="32x32" href="{% static 'images/favicon-32x32.png' %}">
+	<link rel="icon" type="image/png" sizes="16x16" href="{% static 'images/favicon-16x16.png' %}">
+	<link rel="manifest" href="{% static 'manifest.json' %}" crossorigin="use-credentials">
+	<link rel="mask-icon" href="{% static 'images/safari-pinned-tab.svg' %}" color="#5bbad5">
+
+	<link rel="preload" href="{% static 'css/style.min.css' %}" data-rocket-async="style" as="style"
+		onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')"
+		type="text/css" media="all">
+
+	<link data-minify="1" rel="preload" href="{% static 'css/mxw1gov.css' %}" data-rocket-async="style" as="style"
+		onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')"
+		type="text/css" media="all">
+	<link data-minify="1" rel="preload" href="{% static 'css/app.min.css' %}" data-rocket-async="style" as="style"
+		onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')"
+		type="text/css" media="all">
+	<link data-minify="1" rel="preload" href="{% static 'css/answers.css' %}" data-rocket-async="style" as="style"
+		onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')"
+		type="text/css" media="all">
+	<link rel="preload" href="{% static 'css/ctn-style.css' %}" data-rocket-async="style" as="style"
+		onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')"
+		type="text/css" media="all">
+
+	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+	<style>
+		img:is([sizes="auto" i], [sizes^="auto," i]) {
+			contain-intrinsic-size: 3000px 1500px
+		}
+	</style>
+
+	<!-- This site is optimized with the Yoast SEO plugin v24.6 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="description"
+		content="Maxim's dedicated team of nurses, therapists, and home health aids have selflessly served patients in the comfort of home for over 30 years.">
+	<link rel="canonical" href="https://www.maximhealthcare.com/">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Caring for our community | Maxim Healthcare Services">
+	<meta property="og:description"
+		content="At Maxim, our priority is providing exemplary care for our patients and their families. Our team of nurses, therapists, and home health aids help patients of all ages maintain their quality of life.">
+	<meta property="og:url" content="https://www.maximhealthcare.com/">
+	<meta property="og:site_name" content="Maxim Healthcare Services">
+	<meta property="article:publisher" content="https://www.facebook.com/MaximHealthcare/">
+	<meta property="article:modified_time" content="2025-03-03T16:39:04+00:00">
+	<meta property="og:image" content="images/female-nurse-with-pediatric-patient.jpg">
+	<meta property="og:image:width" content="1920">
+	<meta property="og:image:height" content="1282">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Caring for our community | Maxim Healthcare Services">
+	<meta name="twitter:description"
+		content="At Maxim, our priority is providing exemplary care for our patients and their families. Our team of nurses, therapists, and home health aids help patients of all ages maintain their quality of life.">
+	<meta name="twitter:image"
+		content="https://www.maximhealthcare.com/wp-content/uploads/2022/05/female-nurse-with-pediatric-patient.jpg">
+	<meta name="twitter:site" content="@MaximHealthcare">
+	<script type="application/ld+json"
+		class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.maximhealthcare.com/","url":"https://www.maximhealthcare.com/","name":"Maxim Healthcare | Home Healthcare Services","isPartOf":{"@id":"https://www.maximhealthcare.com/#website"},"datePublished":"2022-05-04T13:25:26+00:00","dateModified":"2025-03-03T16:39:04+00:00","description":"Maxim's dedicated team of nurses, therapists, and home health aids have selflessly served patients in the comfort of home for over 30 years.","breadcrumb":{"@id":"https://www.maximhealthcare.com/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.maximhealthcare.com/"]}]},{"@type":"BreadcrumbList","@id":"https://www.maximhealthcare.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://www.maximhealthcare.com/#website","url":"https://www.maximhealthcare.com/","name":"Maxim Healthcare Services","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.maximhealthcare.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"}]}</script>
+	<meta name="google-site-verification" content="i6mffRcCQD5Tbj0bFrj6kR71Zf_MHBbRzEUkyKOMMpo">
+	<!-- / Yoast SEO plugin. -->
+
+
+	<link rel="dns-prefetch" href="//assets.sitescdn.net">
+	<link rel="dns-prefetch" href="//use.typekit.net">
+	<link rel="preload" href="{% static 'css/style.min.css' %}" data-rocket-async="style" as="style"
+		onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')"
+		type="text/css" media="all">
+	<style id="safe-svg-svg-icon-style-inline-css" type="text/css">
+		.safe-svg-cover {
+			text-align: center
+		}
+
+		.safe-svg-cover .safe-svg-inside {
+			display: inline-block;
+			max-width: 100%
+		}
+
+		.safe-svg-cover svg {
+			height: 100%;
+			max-height: 100%;
+			max-width: 100%;
+			width: 100%
+		}
+	</style>
+	<style id="classic-theme-styles-inline-css" type="text/css">
+		/*! This file is auto-generated */
+		.wp-block-button__link {
+			color: #fff;
+			background-color: #32373c;
+			border-radius: 9999px;
+			box-shadow: none;
+			text-decoration: none;
+			padding: calc(.667em + 2px) calc(1.333em + 2px);
+			font-size: 1.125em
+		}
+
+		.wp-block-file__button {
+			background: #32373c;
+			color: #fff;
+			text-decoration: none
+		}
+	</style>
+	<style id="global-styles-inline-css" type="text/css">
+		:root {
+			--wp--preset--aspect-ratio--square: 1;
+			--wp--preset--aspect-ratio--4-3: 4/3;
+			--wp--preset--aspect-ratio--3-4: 3/4;
+			--wp--preset--aspect-ratio--3-2: 3/2;
+			--wp--preset--aspect-ratio--2-3: 2/3;
+			--wp--preset--aspect-ratio--16-9: 16/9;
+			--wp--preset--aspect-ratio--9-16: 9/16;
+			--wp--preset--color--black: #000000;
+			--wp--preset--color--cyan-bluish-gray: #abb8c3;
+			--wp--preset--color--white: #ffffff;
+			--wp--preset--color--pale-pink: #f78da7;
+			--wp--preset--color--vivid-red: #cf2e2e;
+			--wp--preset--color--luminous-vivid-orange: #ff6900;
+			--wp--preset--color--luminous-vivid-amber: #fcb900;
+			--wp--preset--color--light-green-cyan: #7bdcb5;
+			--wp--preset--color--vivid-green-cyan: #00d084;
+			--wp--preset--color--pale-cyan-blue: #8ed1fc;
+			--wp--preset--color--vivid-cyan-blue: #0693e3;
+			--wp--preset--color--vivid-purple: #9b51e0;
+			--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+			--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+			--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+			--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+			--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+			--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+			--wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+			--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+			--wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+			--wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+			--wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+			--wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+			--wp--preset--font-size--small: 13px;
+			--wp--preset--font-size--medium: 20px;
+			--wp--preset--font-size--large: 36px;
+			--wp--preset--font-size--x-large: 42px;
+			--wp--preset--spacing--20: 0.44rem;
+			--wp--preset--spacing--30: 0.67rem;
+			--wp--preset--spacing--40: 1rem;
+			--wp--preset--spacing--50: 1.5rem;
+			--wp--preset--spacing--60: 2.25rem;
+			--wp--preset--spacing--70: 3.38rem;
+			--wp--preset--spacing--80: 5.06rem;
+			--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+			--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+			--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+			--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+			--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+		}
+
+		:where(.is-layout-flex) {
+			gap: 0.5em;
+		}
+
+		:where(.is-layout-grid) {
+			gap: 0.5em;
+		}
+
+		body .is-layout-flex {
+			display: flex;
+		}
+
+		.is-layout-flex {
+			flex-wrap: wrap;
+			align-items: center;
+		}
+
+		.is-layout-flex> :is(*, div) {
+			margin: 0;
+		}
+
+		body .is-layout-grid {
+			display: grid;
+		}
+
+		.is-layout-grid> :is(*, div) {
+			margin: 0;
+		}
+
+		:where(.wp-block-columns.is-layout-flex) {
+			gap: 2em;
+		}
+
+		:where(.wp-block-columns.is-layout-grid) {
+			gap: 2em;
+		}
+
+		:where(.wp-block-post-template.is-layout-flex) {
+			gap: 1.25em;
+		}
+
+		:where(.wp-block-post-template.is-layout-grid) {
+			gap: 1.25em;
+		}
+
+		.has-black-color {
+			color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-color {
+			color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-color {
+			color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-color {
+			color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-color {
+			color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-color {
+			color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-color {
+			color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-color {
+			color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-color {
+			color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-color {
+			color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-color {
+			color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-color {
+			color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-black-background-color {
+			background-color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-background-color {
+			background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-background-color {
+			background-color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-background-color {
+			background-color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-background-color {
+			background-color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-background-color {
+			background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-background-color {
+			background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-background-color {
+			background-color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-background-color {
+			background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-background-color {
+			background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-background-color {
+			background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-background-color {
+			background-color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-black-border-color {
+			border-color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-border-color {
+			border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-border-color {
+			border-color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-border-color {
+			border-color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-border-color {
+			border-color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-border-color {
+			border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-border-color {
+			border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-border-color {
+			border-color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-border-color {
+			border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-border-color {
+			border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-border-color {
+			border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-border-color {
+			border-color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+			background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+		}
+
+		.has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+			background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+		}
+
+		.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+			background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-orange-to-vivid-red-gradient-background {
+			background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+		}
+
+		.has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+			background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+		}
+
+		.has-cool-to-warm-spectrum-gradient-background {
+			background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+		}
+
+		.has-blush-light-purple-gradient-background {
+			background: var(--wp--preset--gradient--blush-light-purple) !important;
+		}
+
+		.has-blush-bordeaux-gradient-background {
+			background: var(--wp--preset--gradient--blush-bordeaux) !important;
+		}
+
+		.has-luminous-dusk-gradient-background {
+			background: var(--wp--preset--gradient--luminous-dusk) !important;
+		}
+
+		.has-pale-ocean-gradient-background {
+			background: var(--wp--preset--gradient--pale-ocean) !important;
+		}
+
+		.has-electric-grass-gradient-background {
+			background: var(--wp--preset--gradient--electric-grass) !important;
+		}
+
+		.has-midnight-gradient-background {
+			background: var(--wp--preset--gradient--midnight) !important;
+		}
+
+		.has-small-font-size {
+			font-size: var(--wp--preset--font-size--small) !important;
+		}
+
+		.has-medium-font-size {
+			font-size: var(--wp--preset--font-size--medium) !important;
+		}
+
+		.has-large-font-size {
+			font-size: var(--wp--preset--font-size--large) !important;
+		}
+
+		.has-x-large-font-size {
+			font-size: var(--wp--preset--font-size--x-large) !important;
+		}
+
+		:where(.wp-block-post-template.is-layout-flex) {
+			gap: 1.25em;
+		}
+
+		:where(.wp-block-post-template.is-layout-grid) {
+			gap: 1.25em;
+		}
+
+		:where(.wp-block-columns.is-layout-flex) {
+			gap: 2em;
+		}
+
+		:where(.wp-block-columns.is-layout-grid) {
+			gap: 2em;
+		}
+
+		:root :where(.wp-block-pullquote) {
+			font-size: 1.5em;
+			line-height: 1.6;
+		}
+	</style>
+	<link data-minify="1" rel="preload" href="{% static 'css/mxw1gov.css' %}" data-rocket-async="style" as="style"
+		onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')"
+		type="text/css" media="all">
+	<link data-minify="1" rel="preload" href="{% static 'css/app.min.css' %}" data-rocket-async="style" as="style"
+		onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')"
+		type="text/css" media="all">
+	<link data-minify="1" rel="preload" href="{% static 'css/answers.css' %}" data-rocket-async="style" as="style"
+		onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')"
+		type="text/css" media="all">
+	<link rel="preload" href="{% static 'css/ctn-style.css' %}" data-rocket-async="style" as="style"
+		onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')"
+		type="text/css" media="all">
+	<script type="rocketlazyloadscript">
+// GTM DataLayer Definition
+dataLayer = [{"content_groupings":{"content_type":"Pages"}}];
+</script>
+	<script type="rocketlazyloadscript">
+    window.addEventListener("message", function(event) {
+        if (event.data.type === 'hsFormCallback' && event.data.eventName === 'onFormSubmitted') {
+            window.dataLayer.push({
+                'event': 'hubspot-form-success',
+                'hs-form-guid': event.data.id,
+                'hs-form-email': event.data.submissionValues.email,
+                'hs-form-firstname': event.data.submissionValues.firstname,
+                'hs-form-lastname': event.data.submissionValues.lastname,
+                'hs-form-phone': event.data.submissionValues.phone,
+                'hs-form-jobtitle': event.data.submissionValues.jobtitle,
+                'hs-form-company': event.data.submissionValues.company
+            });
+        }
+    });
+</script>
+	<!-- Yext Answers Widget -->
+	<script type="rocketlazyloadscript">
+  function initAnswers() {
+    ANSWERS.init({
+      apiKey: "689e4d700091aee1792bbf5090814278",
+      experienceKey: "maxim_answers_experience",
+      experienceVersion: "PRODUCTION",
+      locale: "en",
+      businessId: "2878435",
+      templateBundle: TemplateBundle.default,
+      onReady: function() {
+        ANSWERS.addComponent("SearchBar", {
+          container: ".search-form",
+          name: "search-bar",
+          redirectUrl: "https://www.maximhealthcare.com/search/",
+          placeholderText: "Search...",
+        });
+      },
+    });
+  }
+</script>
+	<script type="rocketlazyloadscript"
+		data-rocket-src="{% static 'answers-search-bar/v1.2/answers.min.js' %}" onload="initAnswers()"
+		defer=""></script>
+	<!-- End Yext Answers Widget -->
+
+	<!-- Google Translation Script -->
+	<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+		function googleTranslateElementInit() {
+							new google.translate.TranslateElement({
+						pageLanguage: 'en',
+						includedLanguages: 'en,ar,zh-CN,hi,es,fr',
+						autoDisplay: false,
+						layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+					},
+					'google_translate_element'
+				);
+					}
+
+		document.addEventListener('DOMContentLoaded', function() {
+			setTimeout(function() {
+				var firstSpan = document.querySelector('.VIpgJd-ZVi9od-xl07Ob-lTBxed span:first-child');
+				if (firstSpan && firstSpan.textContent == 'Select Language') {
+					firstSpan.textContent = 'Select language';
+				}
+			}, 1000); // 5 seconds delay (5000 milliseconds)
+
+			window.addEventListener('scroll', function() {
+				var elem = document.querySelector('.VIpgJd-ZVi9od-xl07Ob-lTBxed');
+				if (window.scrollY > 70) {
+					elem.classList.add('color-white');
+				} else {
+					elem.classList.remove('color-white');
+				}
+			});
+		});
+	</script>
+	<script type="rocketlazyloadscript"
+		data-rocket-src="{% static 'translate.google.com/translate_a/element.js' %}?cb=googleTranslateElementInit"></script>
+	<!-- End Google Translation Script -->
+
+	<!-- Google Tag Manager -->
+	<script type="rocketlazyloadscript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W8GBVR');</script>
+	<!-- End Google Tag Manager -->
+	<style>
+		.custom-pt-select,
+		.custom-pt-select:focus,
+		.custom-pt-select:hover {
+			border: none !important;
+			border-radius: 0px !important;
+			margin-left: 5px;
+			color: unset !important;
+			padding: 0px;
+		}
+
+		.custom-pt-select .goog-te-gadget-simple {
+			background-color: unset !important;
+			border-left: unset !important;
+			border-top: unset !important;
+			border-bottom: unset !important;
+			border-right: unset !important;
+			font-size: unset !important;
+			display: unset !important;
+			padding-top: unset !important;
+			padding-bottom: unset !important;
+			cursor: unset !important;
+			padding: 0px 1px;
+		}
+
+		.custom-pt-select .goog-te-gadget-simple img {
+			display: none !important;
+		}
+
+		.custom-pt-select .goog-te-gadget-simple .VIpgJd-ZVi9od-xl07Ob-lTBxed {
+			color: #3255a4;
+			font-size: 1rem;
+			font-weight: 700;
+			text-decoration: none;
+		}
+
+		.custom-pt-select .goog-te-gadget-simple .VIpgJd-ZVi9od-xl07Ob-lTBxed>* {
+			margin: 0px 3px !important;
+		}
+
+		.custom-pt-select .goog-te-gadget-simple .VIpgJd-ZVi9od-xl07Ob-lTBxed span:nth-child(3),
+		.custom-pt-select .goog-te-gadget-simple .VIpgJd-ZVi9od-xl07Ob-lTBxed span:last-child {
+			display: none !important;
+		}
+
+		.VIpgJd-ZVi9od-ORHb-OEVmcd {
+			display: none;
+		}
+
+		body {
+			top: 0 !important;
+		}
+
+		.color-white {
+			color: #ffffff !important;
+		}
+
+		.m-custom-select {
+			margin-top: 5rem !important;
+			padding: 0rem 0.95rem !important;
+		}
+
+		.m-custom-pt-select,
+		.m-custom-pt-select:focus,
+		.m-custom-pt-select:hover {
+			border: none !important;
+			border-radius: 0px !important;
+			margin-left: 5px;
+			color: unset !important;
+			padding: 0px;
+		}
+
+		.m-custom-pt-select .goog-te-gadget-simple {
+			background-color: unset !important;
+			border-left: unset !important;
+			border-top: unset !important;
+			border-bottom: unset !important;
+			border-right: unset !important;
+			font-size: unset !important;
+			display: unset !important;
+			padding-top: unset !important;
+			padding-bottom: unset !important;
+			cursor: unset !important;
+			padding: 0px 1px;
+		}
+
+		.m-custom-pt-select .goog-te-gadget-simple img {
+			display: none !important;
+		}
+
+		.m-custom-pt-select .goog-te-gadget-simple .VIpgJd-ZVi9od-xl07Ob-lTBxed {
+			color: #fff;
+			font-size: 1rem;
+			font-weight: 700;
+			text-decoration: none;
+		}
+
+		.m-custom-pt-select .goog-te-gadget-simple .VIpgJd-ZVi9od-xl07Ob-lTBxed>* {
+			margin: 0px 3px !important;
+		}
+
+		.m-custom-pt-select .goog-te-gadget-simple .VIpgJd-ZVi9od-xl07Ob-lTBxed span:nth-child(3),
+		.m-custom-pt-select .goog-te-gadget-simple .VIpgJd-ZVi9od-xl07Ob-lTBxed span:last-child {
+			display: none !important;
+		}
+
+		.post-ads.large img {
+			width: 100% !important;
+			height: 600px !important;
+		}
+
+		@media only screen and (min-width: 768px) {
+			.post-ads.large img {
+				width: 100% !important;
+				height: 800px !important;
+			}
+		}
+
+		@media only screen and (min-width: 992px) {
+			.post-ads.large img {
+				width: 287px !important;
+				height: 800px !important;
+			}
+		}
+
+		@media only screen and (min-width: 1200px) {
+			.post-ads.large img {
+				width: 347px !important;
+				height: 800px !important;
+			}
+		}
+
+		contact-divider {
+			width: 200px !important;
+			height: 4px;
+		}
+
+		@media only screen and (min-width: 768px) {
+			.contact-divider {
+				width: 4px !important;
+				height: 200px;
+			}
+		}
+	</style>
+	<meta name="generator"
+		content="Elementor 3.27.3; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+	<style>
+		.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+		.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+			background-image: none !important;
+		}
+
+		@media screen and (max-height: 1024px) {
+
+			.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+			.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+				background-image: none !important;
+			}
+		}
+
+		@media screen and (max-height: 640px) {
+
+			.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+			.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+				background-image: none !important;
+			}
+		}
+	</style>
+	<style>
+		#wp-admin-bar-ctn_adminbar_menu .ab-item {
+			background: green;
+			color: black !important;
+		}
+
+		#wp-admin-bar-ctn_adminbar_menu .ab-item .ctn-admin-item {
+			color: blue;
+		}
+
+		.ctn-admin-item {
+			color: blue;
+		}
+
+		.ab-submenu {}
+	</style>
+	<noscript>
+		<style id="rocket-lazyload-nojs-css">
+			.rll-youtube-player,
+			[data-lazy-src] {
+				display: none !important;
+			}
+		</style>
+	</noscript>
+	<script type="rocketlazyloadscript">
+/*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
+(function(w){"use strict";if(!w.loadCSS){w.loadCSS=function(){}}
+var rp=loadCSS.relpreload={};rp.support=(function(){var ret;try{ret=w.document.createElement("link").relList.supports("preload")}catch(e){ret=!1}
+return function(){return ret}})();rp.bindMediaToggle=function(link){var finalMedia=link.media||"all";function enableStylesheet(){link.media=finalMedia}
+if(link.addEventListener){link.addEventListener("load",enableStylesheet)}else if(link.attachEvent){link.attachEvent("onload",enableStylesheet)}
+setTimeout(function(){link.rel="stylesheet";link.media="only x"});setTimeout(enableStylesheet,3000)};rp.poly=function(){if(rp.support()){return}
+var links=w.document.getElementsByTagName("link");for(var i=0;i<links.length;i++){var link=links[i];if(link.rel==="preload"&&link.getAttribute("as")==="style"&&!link.getAttribute("data-loadcss")){link.setAttribute("data-loadcss",!0);rp.bindMediaToggle(link)}}};if(!rp.support()){rp.poly();var run=w.setInterval(rp.poly,500);if(w.addEventListener){w.addEventListener("load",function(){rp.poly();w.clearInterval(run)})}else if(w.attachEvent){w.attachEvent("onload",function(){rp.poly();w.clearInterval(run)})}}
+if(typeof exports!=="undefined"){exports.loadCSS=loadCSS}
+else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
+</script> <!--[if lte IE 8]>
+			<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+		<![endif]-->
+	<style id="rocket-lazyrender-inline-css">
+		[data-wpr-lazyrender] {
+			content-visibility: auto;
+		}
+	</style>
+	<style id="wpr-lazyload-bg-container"></style>
+	<style id="wpr-lazyload-bg-exclusion">
+		.fc-two-col .bg-wrapper:after {
+			--wpr-bg-82f400f5-7671-4f33-b450-30759504393c: url('images/watercolor-2.webp');
+		}
+
+		.fc-two-col .bg-wrapper:after {
+			--wpr-bg-f36dff52-3312-4d96-94b9-983479213e3d: url('images/watercolor-2.webp');
+		}
+	</style>
+	<noscript>
+		<style id="wpr-lazyload-bg-nostyle">
+			.slick-loading .slick-list {
+				--wpr-bg-bd30402f-a662-483d-ac41-8a7b92b942cf: url('https://www.maximhealthcare.com/wp-content/themes/maxhealth-2022/dist/img/ajax-loader.gif');
+			}
+
+			.fc-cards .cards .single-max-landing-page .callout .slick-track:after,
+			.single-max-landing-page .callout .fc-cards .cards .slick-track:after,
+			.single-max-landing-page .callout .row:after {
+				--wpr-bg-009cdb21-7d1e-4f89-81d4-210f361b7201: url('https://www.maximhealthcare.com/wp-content/themes/maxhealth-2022/dist/img/watercolor-8.webp');
+			}
+
+			.fc-icon-blocks .icon-blocks .single-max-landing-page .callout .slick-track:after,
+			.single-max-landing-page .callout .fc-icon-blocks .icon-blocks .slick-track:after,
+			.single-max-landing-page .callout .row:after {
+				--wpr-bg-ed4bd1ca-f4f3-45ff-9361-05d3bb4dec28: url('https://www.maximhealthcare.com/wp-content/themes/maxhealth-2022/dist/img/watercolor-8.webp');
+			}
+
+			.fc-media-text-slider .slides .single-max-landing-page .callout .slick-track:after,
+			.single-max-landing-page .callout .fc-media-text-slider .slides .slick-track:after,
+			.single-max-landing-page .callout .row:after {
+				--wpr-bg-1191d5f3-8d1c-4d07-a0c0-6e553e32b77f: url('https://www.maximhealthcare.com/wp-content/themes/maxhealth-2022/dist/img/watercolor-8.webp');
+			}
+
+			.fc-posts-cards .posts .single-max-landing-page .callout .slick-track:after,
+			.single-max-landing-page .callout .fc-posts-cards .posts .slick-track:after,
+			.single-max-landing-page .callout .row:after {
+				--wpr-bg-dd47485b-1978-4d78-ba57-644eaa51d97e: url('https://www.maximhealthcare.com/wp-content/themes/maxhealth-2022/dist/img/watercolor-8.webp');
+			}
+
+			.fc-testimonial .row:after {
+				--wpr-bg-f3e9ed1f-1e0e-4c3f-9c9b-3b41fe17e0f4: url('https://www.maximhealthcare.com/wp-content/themes/maxhealth-2022/dist/img/watercolor-4.webp');
+			}
+
+			.fc-two-col-media .align-right .bg-wrapper:before {
+				--wpr-bg-f8fb16fc-4c5d-4ace-85b8-1300cb3ec931: url('https://www.maximhealthcare.com/wp-content/themes/maxhealth-2022/dist/img/watercolor-5.webp');
+			}
+
+			.fc-two-col-media .align-left .bg-wrapper:before {
+				--wpr-bg-40725a34-853f-4f36-8561-4e8961a507a6: url('https://www.maximhealthcare.com/wp-content/themes/maxhealth-2022/dist/img/watercolor-6.webp');
+			}
+
+			.fc-two-col .bg-wrapper:before {
+				--wpr-bg-78589923-4413-47b0-b7de-fe830d98b98c: url('https://www.maximhealthcare.com/wp-content/themes/maxhealth-2022/dist/img/watercolor-1.webp');
+			}
+
+			.fc-video .bg-wrapper:before {
+				--wpr-bg-3cfbb25a-a88e-44e6-888c-3f887d0b0188: url('https://www.maximhealthcare.com/wp-content/themes/maxhealth-2022/dist/img/watercolor-3.webp');
+			}
+
+			.fc-wysiwyg .bg-wrapper:before {
+				--wpr-bg-218afdfe-2b59-42ac-8577-13406921c219: url('https://www.maximhealthcare.com/wp-content/themes/maxhealth-2022/dist/img/watercolor-7.webp');
+			}
+
+			.single-max-landing-page .lp-banner .bg-wrapper:before {
+				--wpr-bg-12801132-11bc-472c-b4d6-bb0169b1024a: url('https://www.maximhealthcare.com/wp-content/themes/maxhealth-2022/dist/img/watercolor-6.webp');
+			}
+
+			.single-max-landing-page .callout .row:after {
+				--wpr-bg-c158cdea-2a8a-4547-af50-3518c2a452ee: url('https://www.maximhealthcare.com/wp-content/themes/maxhealth-2022/dist/img/watercolor-8.webp');
+			}
+
+			.fc-two-col .bg-wrapper:before {
+				--wpr-bg-0e3893e9-ee64-4a44-bf5b-ffdd3d660582: url('https://www.maximhealthcare.com/wp-content/themes/maxhealth-2022/dist/img/watercolor-1.webp');
+			}
+		</style>
+	</noscript>
+	<script
+		type="application/javascript">const rocket_pairs = [{ "selector": ".slick-loading .slick-list", "style": ".slick-loading .slick-list{--wpr-bg-bd30402f-a662-483d-ac41-8a7b92b942cf: url('https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/ajax-loader.gif');}", "hash": "bd30402f-a662-483d-ac41-8a7b92b942cf", "url": "https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/ajax-loader.gif" }, { "selector": ".fc-cards .cards .single-max-landing-page .callout .slick-track,.single-max-landing-page .callout .fc-cards .cards .slick-track,.single-max-landing-page .callout .row", "style": ".fc-cards .cards .single-max-landing-page .callout .slick-track:after,.single-max-landing-page .callout .fc-cards .cards .slick-track:after,.single-max-landing-page .callout .row:after{--wpr-bg-009cdb21-7d1e-4f89-81d4-210f361b7201: url('https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/watercolor-8.webp');}", "hash": "009cdb21-7d1e-4f89-81d4-210f361b7201", "url": "https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/watercolor-8.webp" }, { "selector": ".fc-icon-blocks .icon-blocks .single-max-landing-page .callout .slick-track,.single-max-landing-page .callout .fc-icon-blocks .icon-blocks .slick-track,.single-max-landing-page .callout .row", "style": ".fc-icon-blocks .icon-blocks .single-max-landing-page .callout .slick-track:after,.single-max-landing-page .callout .fc-icon-blocks .icon-blocks .slick-track:after,.single-max-landing-page .callout .row:after{--wpr-bg-ed4bd1ca-f4f3-45ff-9361-05d3bb4dec28: url('https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/watercolor-8.webp');}", "hash": "ed4bd1ca-f4f3-45ff-9361-05d3bb4dec28", "url": "https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/watercolor-8.webp" }, { "selector": ".fc-media-text-slider .slides .single-max-landing-page .callout .slick-track,.single-max-landing-page .callout .fc-media-text-slider .slides .slick-track,.single-max-landing-page .callout .row", "style": ".fc-media-text-slider .slides .single-max-landing-page .callout .slick-track:after,.single-max-landing-page .callout .fc-media-text-slider .slides .slick-track:after,.single-max-landing-page .callout .row:after{--wpr-bg-1191d5f3-8d1c-4d07-a0c0-6e553e32b77f: url('https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/watercolor-8.webp');}", "hash": "1191d5f3-8d1c-4d07-a0c0-6e553e32b77f", "url": "https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/watercolor-8.webp" }, { "selector": ".fc-posts-cards .posts .single-max-landing-page .callout .slick-track,.single-max-landing-page .callout .fc-posts-cards .posts .slick-track,.single-max-landing-page .callout .row", "style": ".fc-posts-cards .posts .single-max-landing-page .callout .slick-track:after,.single-max-landing-page .callout .fc-posts-cards .posts .slick-track:after,.single-max-landing-page .callout .row:after{--wpr-bg-dd47485b-1978-4d78-ba57-644eaa51d97e: url('https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/watercolor-8.webp');}", "hash": "dd47485b-1978-4d78-ba57-644eaa51d97e", "url": "https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/watercolor-8.webp" }, { "selector": ".fc-testimonial .row", "style": ".fc-testimonial .row:after{--wpr-bg-f3e9ed1f-1e0e-4c3f-9c9b-3b41fe17e0f4: url('https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/watercolor-4.webp');}", "hash": "f3e9ed1f-1e0e-4c3f-9c9b-3b41fe17e0f4", "url": "https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/watercolor-4.webp" }, { "selector": ".fc-two-col-media .align-right .bg-wrapper", "style": ".fc-two-col-media .align-right .bg-wrapper:before{--wpr-bg-f8fb16fc-4c5d-4ace-85b8-1300cb3ec931: url('https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/watercolor-5.webp');}", "hash": "f8fb16fc-4c5d-4ace-85b8-1300cb3ec931", "url": "https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/watercolor-5.webp" }, { "selector": ".fc-two-col-media .align-left .bg-wrapper", "style": ".fc-two-col-media .align-left .bg-wrapper:before{--wpr-bg-40725a34-853f-4f36-8561-4e8961a507a6: url('https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/watercolor-6.webp');}", "hash": "40725a34-853f-4f36-8561-4e8961a507a6", "url": "https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/watercolor-6.webp" }, { "selector": ".fc-two-col .bg-wrapper", "style": ".fc-two-col .bg-wrapper:before{--wpr-bg-78589923-4413-47b0-b7de-fe830d98b98c: url('https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/watercolor-1.webp');}", "hash": "78589923-4413-47b0-b7de-fe830d98b98c", "url": "https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/watercolor-1.webp" }, { "selector": ".fc-video .bg-wrapper", "style": ".fc-video .bg-wrapper:before{--wpr-bg-3cfbb25a-a88e-44e6-888c-3f887d0b0188: url('https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/watercolor-3.webp');}", "hash": "3cfbb25a-a88e-44e6-888c-3f887d0b0188", "url": "https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/watercolor-3.webp" }, { "selector": ".fc-wysiwyg .bg-wrapper", "style": ".fc-wysiwyg .bg-wrapper:before{--wpr-bg-218afdfe-2b59-42ac-8577-13406921c219: url('https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/watercolor-7.webp');}", "hash": "218afdfe-2b59-42ac-8577-13406921c219", "url": "https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/watercolor-7.webp" }, { "selector": ".single-max-landing-page .lp-banner .bg-wrapper", "style": ".single-max-landing-page .lp-banner .bg-wrapper:before{--wpr-bg-12801132-11bc-472c-b4d6-bb0169b1024a: url('https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/watercolor-6.webp');}", "hash": "12801132-11bc-472c-b4d6-bb0169b1024a", "url": "https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/watercolor-6.webp" }, { "selector": ".single-max-landing-page .callout .row", "style": ".single-max-landing-page .callout .row:after{--wpr-bg-c158cdea-2a8a-4547-af50-3518c2a452ee: url('https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/watercolor-8.webp');}", "hash": "c158cdea-2a8a-4547-af50-3518c2a452ee", "url": "https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/watercolor-8.webp" }, { "selector": ".fc-two-col .bg-wrapper", "style": ".fc-two-col .bg-wrapper:before{--wpr-bg-0e3893e9-ee64-4a44-bf5b-ffdd3d660582: url('https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/watercolor-1.webp');}", "hash": "0e3893e9-ee64-4a44-bf5b-ffdd3d660582", "url": "https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/watercolor-1.webp" }]; const rocket_excluded_pairs = [{ "selector": ".fc-two-col .bg-wrapper", "style": ".fc-two-col .bg-wrapper:after{--wpr-bg-82f400f5-7671-4f33-b450-30759504393c: url('https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/watercolor-2.webp');}", "hash": "82f400f5-7671-4f33-b450-30759504393c", "url": "https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/watercolor-2.webp" }, { "selector": ".fc-two-col .bg-wrapper", "style": ".fc-two-col .bg-wrapper:after{--wpr-bg-f36dff52-3312-4d96-94b9-983479213e3d: url('https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/watercolor-2.webp');}", "hash": "f36dff52-3312-4d96-94b9-983479213e3d", "url": "https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022\/dist\/img\/watercolor-2.webp" }];</script>
+	<meta name="generator" content="WP Rocket 3.18.2"
+		data-wpr-features="wpr_lazyload_css_bg_img wpr_delay_js wpr_async_css wpr_lazyload_images wpr_lazyload_iframes wpr_automatic_lazy_rendering wpr_oci wpr_image_dimensions wpr_minify_css wpr_preload_links wpr_desktop">
+</head>
+
+<body class="home page-template-default page page-id-6 elementor-default elementor-kit-1651">
+	<!--[if lt IE 9]>
+			<div class="browserupgrade">
+				You are using an <strong>outdated</strong> browser! Please <a href="http://browsehappy.com/" title="Upgrade Your Browser" target="_blank">upgrade your browser</a> to improve your experience.
+			</div>
+		<![endif]-->
+	<header id="header">
+
+		<div class="nav-wrapper">
+
+
+			<nav class="top navbar navbar-expand-lg">
+				<div class="container">
+					<div class="collapse navbar-collapse col-12 text-center text-lg-right justify-content-center justify-content-lg-end"
+						id="topNavDropdown">
+						<div class="ml-auto d-flex text-center text-lg-right justify-content-center"
+							style="font-size: 1rem; font-weight: 700;">
+							<span>Translate this webpage:</span>
+							<div id="google_translate_element" class="custom-pt-select"></div>
+						</div>
+						<ul class="navbar-nav">
+							<li id="menu-item-698"
+								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-698"><a
+									href="https://www.maximhealthcare.com/referral-partners/">Referral Partners</a></li>
+							<li id="menu-item-14"
+								class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14"><a
+									target="_blank"
+									href="https://myhpconsumer.netsmartcloud.com/Account/Login?ReturnUrl=%2f">Patient
+									portal</a></li>
+						</ul> <button type="button" class="search btn btn-link" data-toggle="modal"
+							data-target="#searchModal"><svg class="icon">
+								<use xlink:href="#search"></use>
+							</svg></button>
+					</div>
+				</div>
+
+			</nav>
+
+			<nav class="main navbar navbar-expand-lg">
+				<div class="container">
+					<div class="brand-wrapper">
+						<a class="navbar-brand" href="https://www.maximhealthcare.com"
+							title="Maxim Healthcare Services">
+							<!-- <svg class="logo icon" viewBox="0 0 119.44 36"><use xlink:href="#maxhealthcare-logo"></use></svg> -->
+							<img width="2539" height="974" src="{% static 'images/new_logo.jpg' %}" alt=""
+								style="width: 200px;height:80px;">
+						</a>
+						<button type="button" class="main-toggle navbar-toggler collapsed" data-toggle="offcanvas"
+							data-target="#mainNavDropdown">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="main-nav">
+						<div class="navbar-collapse offcanvas-collapse" id="mainNavDropdown">
+							<div class="d-lg-none d-flex m-custom-select">
+								<span style="color: #fff; margin-top: -3px;">Translate: </span>
+								<div id="google_translate_mobile_element" class="m-custom-pt-select"></div>
+							</div>
+							<button type="button" class="search btn btn-link d-lg-none" data-toggle="modal"
+								data-target="#searchModal"><svg class="icon">
+									<use xlink:href="#search"></use>
+								</svg></button>
+							<ul class="navbar-nav ml-auto" itemscope=""
+								itemtype="http://www.schema.org/SiteNavigationElement">
+
+								<li id="menu-item-395"
+									class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-395 nav-item">
+									<a href="#"
+										class="nav-link" id="menu-item-dropdown-395"><span
+											itemprop="name">About Us</span></a>
+
+								</li>
+
+								<li id="menu-item-12"
+									class="btn btn-secondary menu-item menu-item-type-custom menu-item-object-custom menu-item-12 nav-item">
+									<a target="" rel="noopener noreferrer" itemprop="url"
+										href="{% url 'newstaff' %}" class="nav-link"><span
+											itemprop="name">Apply As a new staff</span></a></li>
+							</ul>
+							<ul class="top navbar-nav d-block d-lg-none" itemscope=""
+								itemtype="http://www.schema.org/SiteNavigationElement">
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-698"><a
+										href="https://www.maximhealthcare.com/referral-partners/">Referral Partners</a>
+								</li>
+								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14"><a
+										target="_blank"
+										href="https://myhpconsumer.netsmartcloud.com/Account/Login?ReturnUrl=%2f">Patient
+										portal</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<main id="main" class="pb-5">
+
+		<script type="rocketlazyloadscript"
+			data-rocket-src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+
+		<section class="front-page-banner">
+			<div class="banner-wrapper">
+				<div class="container py-5">
+					<div class="row align-items-center">
+						<div class="col-12 col-md-5">
+							<h1 class="title">Enhancing the quality of life within our communities</h1>
+							<p>Mercy Medical Staffing provides quality care for our patients and their families. Our vision is to set the
+								standard for home and community-based care.</p>
+							<a href="https://www.maximhealthcare.com/contact-maxim-healthcare/"
+								class="btn btn-primary">Find care</a>
+						</div>
+
+						<div class="col-12 col-md-6 offset-md-1">
+							<div class="img-wrapper">
+								<lottie-player src="https://www.maximhealthcare.com/wp-content/uploads/2022/05/MAXIM-HC-HeroAnimation-R01.json" background="transparent" speed="1" loop="" autoplay=""></lottie-player>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<svg class="banner-shape" viewBox="0 0 1453 73.33" xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="m0 0v19.09c199.35 42.71 403.7 57.29 607.1 43.33l114.4-7.85 28.15-3.37c234.23-28.01 471.34-20.55 703.35 22.12v-73.32z"
+					fill="#eef4ff"></path>
+			</svg>
+		</section>
+
+		<section id="two-col-67d7f392b1135" class="fc-two-col">
+			<div class="container mb-5">
+				<div class="row align-items-center flex-md-row-reverse">
+					<div class="col-12 col-md-6 p-5">
+						<h2 class="title h1">Compassionate care in the comfort of home</h2>
+						<p>We offer private duty nursing, skilled nursing, physical rehabilitation, personal care,
+							respite care and behavioral care for individuals with chronic and acute illnesses and
+							disabilities. </p>
+					</div>
+
+					<div class="col-12 col-md-6 m-auto p-5">
+						<div class="bg-wrapper">
+							<div class="img-wrapper">
+								<img width="768" height="513"
+									src="images/female-nurse-with-pediatric-patient-768x513.jpg" class=""
+									alt="female nurse helps pediatric patient" decoding="async"
+									srcset="images/female-nurse-with-pediatric-patient-768x513.jpg 768w, images/female-nurse-with-pediatric-patient-300x200.jpg 300w, images/female-nurse-with-pediatric-patient-1024x684.jpg 1024w, images/female-nurse-with-pediatric-patient-1536x1026.jpg 1536w, images/female-nurse-with-pediatric-patient.jpg 1920w"
+									sizes="(max-width: 768px) 100vw, 768px">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="icon-blocks-67d7f392b17fc" class="fc-icon-blocks">
+			<div class="container pb-5">
+
+				<div class="row">
+					<div class="col-12 text-center">
+						<p class="leader small-caps">What we offer </p>
+						<h2 class="h1 title">Our services</h2>
+					</div>
+				</div>
+
+				<div class="icon-blocks row">
+					<div
+						class="block d-flex flex-column align-items-center align-items-md-start text-center text-md-left">
+						<div class="icon-wrapper">
+							<img width="200" height="300"
+								src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20200%20300'%3E%3C/svg%3E"
+								class="icon" alt="pediatric help icon image" decoding="async"
+								data-lazy-srcset="https://www.maximhealthcare.com/wp-content/uploads/2022/05/infant-200x300.png 200w, https://www.maximhealthcare.com/wp-content/uploads/2022/05/infant.png 304w"
+								data-lazy-sizes="(max-width: 200px) 100vw, 200px"
+								data-lazy-src="https://www.maximhealthcare.com/wp-content/uploads/2022/05/infant-200x300.png"><noscript><img
+									width="200" height="300"
+									src="https://www.maximhealthcare.com/wp-content/uploads/2022/05/infant-200x300.png"
+									class="icon" alt="pediatric help icon image" decoding="async"
+									srcset="https://www.maximhealthcare.com/wp-content/uploads/2022/05/infant-200x300.png 200w, https://www.maximhealthcare.com/wp-content/uploads/2022/05/infant.png 304w"
+									sizes="(max-width: 200px) 100vw, 200px" /></noscript>
+						</div>
+						<h3 id="title-67d7f392b199b">Pediatrics</h3>
+						<p>With extensive experience in pediatric care, you can trust Maxim to treat your medically
+							complex child. </p>
+						<a href="https://www.maximhealthcare.com/in-home-care-services/pediatrics/"
+							class="btn btn-link mt-auto" aria-labeledby="title-67d7f392b199b">Learn more</a>
+					</div>
+					<div
+						class="block d-flex flex-column align-items-center align-items-md-start text-center text-md-left">
+						<div class="icon-wrapper">
+							<img width="300" height="300"
+								src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E"
+								class="icon" alt="Child icon" decoding="async"
+								data-lazy-srcset="https://www.maximhealthcare.com/wp-content/uploads/2022/06/community315px-01-300x300.png 300w, https://www.maximhealthcare.com/wp-content/uploads/2022/06/community315px-01-150x150.png 150w, https://www.maximhealthcare.com/wp-content/uploads/2022/06/community315px-01.png 657w"
+								data-lazy-sizes="(max-width: 300px) 100vw, 300px"
+								data-lazy-src="https://www.maximhealthcare.com/wp-content/uploads/2022/06/community315px-01-300x300.png"><noscript><img
+									width="300" height="300"
+									src="https://www.maximhealthcare.com/wp-content/uploads/2022/06/community315px-01-300x300.png"
+									class="icon" alt="Child icon" decoding="async"
+									srcset="https://www.maximhealthcare.com/wp-content/uploads/2022/06/community315px-01-300x300.png 300w, https://www.maximhealthcare.com/wp-content/uploads/2022/06/community315px-01-150x150.png 150w, https://www.maximhealthcare.com/wp-content/uploads/2022/06/community315px-01.png 657w"
+									sizes="(max-width: 300px) 100vw, 300px" /></noscript>
+						</div>
+						<h3 id="title-67d7f392b1ea7">Autism</h3>
+						<p>Applied behavioral analysis (ABA) therapy uses a flexible, empathy-based approach and is
+							specifically tailored to your child's needs.</p>
+						<a href="https://www.maximhealthcare.com/behavioral-care-services/aba-therapy/"
+							class="btn btn-link mt-auto" aria-labeledby="title-67d7f392b1ea7">Learn more</a>
+					</div>
+					<div
+						class="block d-flex flex-column align-items-center align-items-md-start text-center text-md-left">
+						<div class="icon-wrapper">
+							<img width="269" height="300"
+								src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20269%20300'%3E%3C/svg%3E"
+								class="icon" alt="adult home care help icon" decoding="async"
+								data-lazy-srcset="https://www.maximhealthcare.com/wp-content/uploads/2022/05/adult-269x300.png 269w, https://www.maximhealthcare.com/wp-content/uploads/2022/05/adult.png 342w"
+								data-lazy-sizes="(max-width: 269px) 100vw, 269px"
+								data-lazy-src="https://www.maximhealthcare.com/wp-content/uploads/2022/05/adult-269x300.png"><noscript><img
+									width="269" height="300"
+									src="https://www.maximhealthcare.com/wp-content/uploads/2022/05/adult-269x300.png"
+									class="icon" alt="adult home care help icon" decoding="async"
+									srcset="https://www.maximhealthcare.com/wp-content/uploads/2022/05/adult-269x300.png 269w, https://www.maximhealthcare.com/wp-content/uploads/2022/05/adult.png 342w"
+									sizes="(max-width: 269px) 100vw, 269px" /></noscript>
+						</div>
+						<h3 id="title-67d7f392b22c1">Adult</h3>
+						<p>Maintain your independence while getting the care you need with the support of our CNAs,
+							HHAs, and other home care professionals. </p>
+						<a href="https://www.maximhealthcare.com/in-home-care-services/adults/"
+							class="btn btn-link mt-auto" aria-labeledby="title-67d7f392b22c1">Learn more</a>
+					</div>
+					<div
+						class="block d-flex flex-column align-items-center align-items-md-start text-center text-md-left">
+						<div class="icon-wrapper">
+							<img width="300" height="300"
+								src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E"
+								class="icon" alt="military and federal home care icon" decoding="async"
+								data-lazy-srcset="https://www.maximhealthcare.com/wp-content/uploads/2022/05/military-federal-300x300.png 300w, https://www.maximhealthcare.com/wp-content/uploads/2022/05/military-federal-150x150.png 150w, https://www.maximhealthcare.com/wp-content/uploads/2022/05/military-federal.png 356w"
+								data-lazy-sizes="(max-width: 300px) 100vw, 300px"
+								data-lazy-src="https://www.maximhealthcare.com/wp-content/uploads/2022/05/military-federal-300x300.png"><noscript><img
+									width="300" height="300"
+									src="https://www.maximhealthcare.com/wp-content/uploads/2022/05/military-federal-300x300.png"
+									class="icon" alt="military and federal home care icon" decoding="async"
+									srcset="https://www.maximhealthcare.com/wp-content/uploads/2022/05/military-federal-300x300.png 300w, https://www.maximhealthcare.com/wp-content/uploads/2022/05/military-federal-150x150.png 150w, https://www.maximhealthcare.com/wp-content/uploads/2022/05/military-federal.png 356w"
+									sizes="(max-width: 300px) 100vw, 300px" /></noscript>
+						</div>
+						<h3 id="title-67d7f392b273d">Military and federal</h3>
+						<p>Veterans, active duty service members and beneficiaries of Workers' Compensation programs can
+							turn to us for compassionate care when they need it the most.</p>
+						<a href="https://www.maximhealthcare.com/in-home-care-services/veteran-home-care/"
+							class="btn btn-link mt-auto" aria-labeledby="title-67d7f392b273d">Learn more</a>
+					</div>
+					<div
+						class="block d-flex flex-column align-items-center align-items-md-start text-center text-md-left">
+						<div class="icon-wrapper">
+							<img width="300" height="300"
+								src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E"
+								class="icon" alt="private duty nursing icon" decoding="async"
+								data-lazy-srcset="https://www.maximhealthcare.com/wp-content/uploads/2022/08/Private-Duty-Nursing-Icon-300x300.png 300w, https://www.maximhealthcare.com/wp-content/uploads/2022/08/Private-Duty-Nursing-Icon-150x150.png 150w, https://www.maximhealthcare.com/wp-content/uploads/2022/08/Private-Duty-Nursing-Icon.png 657w"
+								data-lazy-sizes="(max-width: 300px) 100vw, 300px"
+								data-lazy-src="https://www.maximhealthcare.com/wp-content/uploads/2022/08/Private-Duty-Nursing-Icon-300x300.png"><noscript><img
+									width="300" height="300"
+									src="https://www.maximhealthcare.com/wp-content/uploads/2022/08/Private-Duty-Nursing-Icon-300x300.png"
+									class="icon" alt="private duty nursing icon" decoding="async"
+									srcset="https://www.maximhealthcare.com/wp-content/uploads/2022/08/Private-Duty-Nursing-Icon-300x300.png 300w, https://www.maximhealthcare.com/wp-content/uploads/2022/08/Private-Duty-Nursing-Icon-150x150.png 150w, https://www.maximhealthcare.com/wp-content/uploads/2022/08/Private-Duty-Nursing-Icon.png 657w"
+									sizes="(max-width: 300px) 100vw, 300px" /></noscript>
+						</div>
+						<h3 id="title-67d7f392b2b2c">Private duty nursing</h3>
+						<p>As a leading provider of private duty nursing (PDN) services, we provide skilled care to
+							adult and pediatric patients.</p>
+						<a href="https://www.maximhealthcare.com/in-home-care-services/private-duty-nursing/"
+							class="btn btn-link mt-auto" aria-labeledby="title-67d7f392b2b2c">Learn more</a>
+					</div>
+					<div
+						class="block d-flex flex-column align-items-center align-items-md-start text-center text-md-left">
+						<div class="icon-wrapper">
+							<img width="300" height="298"
+								src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20298'%3E%3C/svg%3E"
+								class="icon" alt="local services icon" decoding="async"
+								data-lazy-srcset="https://www.maximhealthcare.com/wp-content/uploads/2022/05/other-300x298.png 300w, https://www.maximhealthcare.com/wp-content/uploads/2022/05/other-150x150.png 150w, https://www.maximhealthcare.com/wp-content/uploads/2022/05/other.png 316w"
+								data-lazy-sizes="(max-width: 300px) 100vw, 300px"
+								data-lazy-src="https://www.maximhealthcare.com/wp-content/uploads/2022/05/other-300x298.png"><noscript><img
+									width="300" height="298"
+									src="https://www.maximhealthcare.com/wp-content/uploads/2022/05/other-300x298.png"
+									class="icon" alt="local services icon" decoding="async"
+									srcset="https://www.maximhealthcare.com/wp-content/uploads/2022/05/other-300x298.png 300w, https://www.maximhealthcare.com/wp-content/uploads/2022/05/other-150x150.png 150w, https://www.maximhealthcare.com/wp-content/uploads/2022/05/other.png 316w"
+									sizes="(max-width: 300px) 100vw, 300px" /></noscript>
+						</div>
+						<h3 id="title-67d7f392b2f05">Local services</h3>
+						<p>Quality care in your neighborhood. Maxim's local services are region-specific and crafted to
+							help you live well. </p>
+						<a href="https://www.maximhealthcare.com/in-home-care-services/local-services/"
+							class="btn btn-link mt-auto" aria-labeledby="title-67d7f392b2f05">Learn more</a>
+					</div>
+				</div>
+
+				<div class="slider-nav"></div>
+			</div>
+		</section>
+		<section id="video-67d7f392b338e" class="fc-video my-5">
+			<div class="container">
+				<div class="row py-5">
+
+					<div class="col-12 col-md-7 m-auto text-center">
+						<div class="intro">
+							<h2 class="h1 title">Making a difference</h2>
+							<p>We have been making a difference in our communities for more than 30 years. At Maxim, our
+								priority is providing exemplary care for our patients and their families. Our team of
+								nurses, therapists and home health aides help patients of all ages maintain their
+								quality of life.</p>
+							<a class="btn btn-primary"
+								href="https://www.maximhealthcare.com/about-maxim-healthcare/">Learn more</a>
+						</div>
+					</div>
+
+					<div class="col-12 col-md-7 mx-auto py-5">
+						<div class="bg-wrapper">
+							<div class="video-wrapper mt-3">
+								<div class="embed-responsive embed-responsive-16by9" data-video-id="11kosu6RM8o">
+									<div class="embed-youtube" data-video-id="11kosu6RM8o">
+										<div class="embed-youtube-play"><svg xmlns="http://www.w3.org/2000/svg"
+												viewBox="0 0 384 512">
+												<path fill="#fff"
+													d="M361 215C375.3 223.8 384 239.3 384 256C384 272.7 375.3 288.2 361 296.1L73.03 472.1C58.21 482 39.66 482.4 24.52 473.9C9.377 465.4 0 449.4 0 432V80C0 62.64 9.377 46.63 24.52 38.13C39.66 29.64 58.21 29.99 73.03 39.04L361 215z">
+												</path>
+											</svg></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="stats-67d7f39314042" class="fc-stats my-5 align-right bg-pink">
+			<div class="container py-5">
+				<div class="row align-items-center">
+					<div class="content col-12 col-md-5 ml-0 ml-lg-5 py-5 text-center text-md-left mb-5 mb-md-0">
+						<h2 class="title h1">A snapshot of our services</h2>
+						<p>We take pride in providing excellent service to customers across the nation. Here are some of
+							our care highlights. </p>
+						<a class="btn btn-primary" href="https://www.maximhealthcare.com/contact-maxim-healthcare/">Find
+							care</a>
+					</div>
+					<div class="stats-col col-11 col-md-7 col-lg-5 offset-lg-1 d-flex m-auto mt-n3">
+						<div class="stats d-flex flex-column col-6 mt-n3 mb-n5">
+							<div class="stat">
+								<span id="stats-67d7f39314042-value-0" class="value" data-value="150" data-prefix=""
+									data-suffix="+">0</span>
+								<p class="small-caps">offices</p>
+							</div>
+							<div class="stat">
+								<span id="stats-67d7f39314042-value-2" class="value" data-value="35" data-prefix=""
+									data-suffix="+">0</span>
+								<p class="small-caps">years</p>
+							</div>
+						</div>
+
+						<div class="stats d-flex flex-column col-6 mt-5 mb-n5">
+							<div class="stat">
+								<span id="stats-67d7f39314042-value-1" class="value" data-value="35" data-prefix=""
+									data-suffix="+">0</span>
+								<p class="small-caps">states</p>
+							</div>
+							<div class="stat">
+								<span id="stats-67d7f39314042-value-3" class="value" data-value="32" data-prefix=""
+									data-suffix="k+">0</span>
+								<p class="small-caps">patients served </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="posts-cards-67d7f3931450d" class="fc-posts-cards">
+			<div class="container pb-5">
+
+				<div class="top row">
+					<div class="col-12 col-md-8 align-self-center">
+						<h2 class="title mb-0">From the Maxim blog</h2>
+					</div>
+					<div class="col-12 col-md-4 text-left text-md-right align-self-center">
+						<a href="https://www.maximhealthcare.com/healthcare-blog/" class="btn btn-link">Learn more</a>
+					</div>
+				</div>
+
+				<div class="posts row">
+					<div id="post-2410" class="post">
+						<div class="card">
+							<a href="https://www.maximhealthcare.com/healthcare-blog/understanding-multiple-sclerosis/"
+								class="card-image"><img width="300" height="200"
+									src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20200'%3E%3C/svg%3E"
+									class="attachment-medium size-medium" alt="" decoding="async"
+									data-lazy-srcset="https://www.maximhealthcare.com/wp-content/uploads/2025/03/GettyImages-1386035214-300x200.jpg 300w, https://www.maximhealthcare.com/wp-content/uploads/2025/03/GettyImages-1386035214-1024x683.jpg 1024w, https://www.maximhealthcare.com/wp-content/uploads/2025/03/GettyImages-1386035214-768x512.jpg 768w, https://www.maximhealthcare.com/wp-content/uploads/2025/03/GettyImages-1386035214-1536x1025.jpg 1536w"
+									data-lazy-sizes="(max-width: 300px) 100vw, 300px"
+									data-lazy-src="https://www.maximhealthcare.com/wp-content/uploads/2025/03/GettyImages-1386035214-300x200.jpg"><noscript><img
+										width="300" height="200"
+										src="https://www.maximhealthcare.com/wp-content/uploads/2025/03/GettyImages-1386035214-300x200.jpg"
+										class="attachment-medium size-medium" alt="" decoding="async"
+										srcset="https://www.maximhealthcare.com/wp-content/uploads/2025/03/GettyImages-1386035214-300x200.jpg 300w, https://www.maximhealthcare.com/wp-content/uploads/2025/03/GettyImages-1386035214-1024x683.jpg 1024w, https://www.maximhealthcare.com/wp-content/uploads/2025/03/GettyImages-1386035214-768x512.jpg 768w, https://www.maximhealthcare.com/wp-content/uploads/2025/03/GettyImages-1386035214-1536x1025.jpg 1536w"
+										sizes="(max-width: 300px) 100vw, 300px" /></noscript></a>
+							<div class="card-body">
+								<div class="d-flex align-items-center small pb-2">
+									Mar 11, 2025 </div>
+								<h4 id="title-2410" class="card-title">Understanding Multiple Sclerosis</h4>
+								<p class="card-text">Multiple sclerosis (MS) is an often misunderstood condition. While
+									there is currently no known cure, raising awareness about symptoms,...</p>
+								<a href="https://www.maximhealthcare.com/healthcare-blog/understanding-multiple-sclerosis/"
+									id="link-2410" class="btn btn-link" aria-labelledby="title-2410 link-2410">Read
+									more</a>
+							</div>
+						</div>
+					</div>
+					<div id="post-2370" class="post">
+						<div class="card">
+							<a href="https://www.maximhealthcare.com/healthcare-blog/healthy-eating-tips-for-older-adults-during-nutrition-month/"
+								class="card-image"><img width="300" height="200"
+									src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20200'%3E%3C/svg%3E"
+									class="attachment-medium size-medium" alt="" decoding="async"
+									data-lazy-srcset="https://www.maximhealthcare.com/wp-content/uploads/2025/02/GettyImages-1404639312-300x200.jpg 300w, https://www.maximhealthcare.com/wp-content/uploads/2025/02/GettyImages-1404639312-1024x683.jpg 1024w, https://www.maximhealthcare.com/wp-content/uploads/2025/02/GettyImages-1404639312-768x512.jpg 768w, https://www.maximhealthcare.com/wp-content/uploads/2025/02/GettyImages-1404639312-1536x1025.jpg 1536w"
+									data-lazy-sizes="(max-width: 300px) 100vw, 300px"
+									data-lazy-src="https://www.maximhealthcare.com/wp-content/uploads/2025/02/GettyImages-1404639312-300x200.jpg"><noscript><img
+										width="300" height="200"
+										src="https://www.maximhealthcare.com/wp-content/uploads/2025/02/GettyImages-1404639312-300x200.jpg"
+										class="attachment-medium size-medium" alt="" decoding="async"
+										srcset="https://www.maximhealthcare.com/wp-content/uploads/2025/02/GettyImages-1404639312-300x200.jpg 300w, https://www.maximhealthcare.com/wp-content/uploads/2025/02/GettyImages-1404639312-1024x683.jpg 1024w, https://www.maximhealthcare.com/wp-content/uploads/2025/02/GettyImages-1404639312-768x512.jpg 768w, https://www.maximhealthcare.com/wp-content/uploads/2025/02/GettyImages-1404639312-1536x1025.jpg 1536w"
+										sizes="(max-width: 300px) 100vw, 300px" /></noscript></a>
+							<div class="card-body">
+								<div class="d-flex align-items-center small pb-2">
+									Mar 4, 2025 </div>
+								<h4 id="title-2370" class="card-title">Healthy Eating Tips for Older Adults During
+									Nutrition Month</h4>
+								<p class="card-text">Good nutrition is essential at every stage of life, but it becomes
+									even more critical as we age. Maintaining...</p>
+								<a href="https://www.maximhealthcare.com/healthcare-blog/healthy-eating-tips-for-older-adults-during-nutrition-month/"
+									id="link-2370" class="btn btn-link" aria-labelledby="title-2370 link-2370">Read
+									more</a>
+							</div>
+						</div>
+					</div>
+					<div id="post-2364" class="post">
+						<div class="card">
+							<a href="https://www.maximhealthcare.com/healthcare-blog/winter-care-tips-for-medically-complex-children/"
+								class="card-image"><img width="300" height="200"
+									src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20200'%3E%3C/svg%3E"
+									class="attachment-medium size-medium" alt="" decoding="async"
+									data-lazy-srcset="https://www.maximhealthcare.com/wp-content/uploads/2025/02/GettyImages-1500851438-300x200.jpg 300w, https://www.maximhealthcare.com/wp-content/uploads/2025/02/GettyImages-1500851438-1024x683.jpg 1024w, https://www.maximhealthcare.com/wp-content/uploads/2025/02/GettyImages-1500851438-768x512.jpg 768w, https://www.maximhealthcare.com/wp-content/uploads/2025/02/GettyImages-1500851438-1536x1024.jpg 1536w, https://www.maximhealthcare.com/wp-content/uploads/2025/02/GettyImages-1500851438-2048x1366.jpg 2048w"
+									data-lazy-sizes="(max-width: 300px) 100vw, 300px"
+									data-lazy-src="https://www.maximhealthcare.com/wp-content/uploads/2025/02/GettyImages-1500851438-300x200.jpg"><noscript><img
+										width="300" height="200"
+										src="https://www.maximhealthcare.com/wp-content/uploads/2025/02/GettyImages-1500851438-300x200.jpg"
+										class="attachment-medium size-medium" alt="" decoding="async"
+										srcset="https://www.maximhealthcare.com/wp-content/uploads/2025/02/GettyImages-1500851438-300x200.jpg 300w, https://www.maximhealthcare.com/wp-content/uploads/2025/02/GettyImages-1500851438-1024x683.jpg 1024w, https://www.maximhealthcare.com/wp-content/uploads/2025/02/GettyImages-1500851438-768x512.jpg 768w, https://www.maximhealthcare.com/wp-content/uploads/2025/02/GettyImages-1500851438-1536x1024.jpg 1536w, https://www.maximhealthcare.com/wp-content/uploads/2025/02/GettyImages-1500851438-2048x1366.jpg 2048w"
+										sizes="(max-width: 300px) 100vw, 300px" /></noscript></a>
+							<div class="card-body">
+								<div class="d-flex align-items-center small pb-2">
+									Feb 25, 2025 </div>
+								<h4 id="title-2364" class="card-title">Winter Care Tips for Medically Complex Children
+								</h4>
+								<p class="card-text">Winter can bring some unique challenges for families, especially
+									for those raising medically complex children. However, with thoughtful
+									preparation...</p>
+								<a href="https://www.maximhealthcare.com/healthcare-blog/winter-care-tips-for-medically-complex-children/"
+									id="link-2364" class="btn btn-link" aria-labelledby="title-2364 link-2364">Read
+									more</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="slider-nav"></div>
+			</div>
+		</section>
+
+		<div data-wpr-lazyrender="1" class="observer-anchor"></div>
+	</main>
+	<footer class="footer">
+		<div class="footer-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-3 mb-3">
+						<div class="mb-3">
+							<a href="{% url 'home' %}">
+								<img src="{% static 'images/new_logo.jpg' %}" alt="Logo" style="width: 200px;height:80px;">
+							</a>
+						</div>
+					</div>
+
+					<div class="buttons col-12 col-lg-2 mb-3 d-flex flex-column align-items-center align-items-md-start">
+						<a href="#" class="btn btn-white mb-3">Contact</a>
+						<a href="#" class="btn btn-white mb-3">Careers</a>
+					</div>
+
+
+					<div class="social col-12 col-lg-3 mb-3 text-center text-md-left">
+						<h3>Stay connected</h3>
+						<a href="https://www.facebook.com/MaximHealthcare/" target="_blank"><svg class="icon">
+								<use xlink:href="#facebook" role="none" aria-hidden="true" focusable="false"></use>
+							</svg></a><a href="https://www.linkedin.com/company/maxim-healthcare-services-home-care"
+							target="_blank"><svg class="icon">
+								<use xlink:href="#linkedin" role="none" aria-hidden="true" focusable="false"></use>
+							</svg></a><a href="https://www.instagram.com/maxim_healthcare/" target="_blank"><svg
+								class="icon">
+								<use xlink:href="#instagram" role="none" aria-hidden="true" focusable="false"></use>
+							</svg></a><a href="https://www.twitter.com/MaximHealthcare" target="_blank"><svg width="18"
+								height="18" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+								<g clip-path="url(#clip0_1049_6483)">
+									<path d="M0 0H24V24H0V0Z" fill="currentColor"></path>
+									<path
+										d="M13.3471 10.9322L18.4051 5.46924H17.0641L12.7501 10.1282L9.27912 5.48724L9.26412 5.46924H5.02212L10.4041 12.6662L4.97412 18.5312H6.31512L11.0011 13.4672L14.7751 18.5132L14.7901 18.5312H19.0321L13.3501 10.9352L13.3471 10.9322ZM8.76612 6.45624L17.0581 17.5412H15.2851L6.99012 6.45624H8.76312H8.76612Z"
+										fill="#3255a4" style="stroke: #3255a4;"></path>
+								</g>
+								<defs>
+									<clipPath id="clip0_1049_6483">
+										<rect width="24" height="24" fill="white"></rect>
+									</clipPath>
+								</defs>
+							</svg></a><a href="https://www.youtube.com/user/MaximHealthcare" target="_blank"><svg
+								class="icon">
+								<use xlink:href="#youtube" role="none" aria-hidden="true" focusable="false"></use>
+							</svg></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container pt-5">
+				<div class="row">
+					<div class="col-12 top-border mb-5"></div>
+					<div class="col-md-6 mb-3 text-center text-md-right">
+						<ul class="nav justify-content-center justify-content-md-start font-small" itemscope=""
+							itemtype="http://www.schema.org/SiteNavigationElement">
+							<li id="menu-item-487"
+								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-487">
+								<a rel="privacy-policy"
+									href="https://www.maximhealthcare.com/privacy-security-center/privacy-policy/">Privacy
+									policy</a></li>
+							<li id="menu-item-489"
+								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-489"><a
+									href="https://www.maximhealthcare.com/privacy-security-center/terms-of-use/">Terms
+									of Use</a></li>
+							<li id="menu-item-488"
+								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-488"><a
+									href="https://www.maximhealthcare.com/privacy-security-center/cookie-policy/">Cookie
+									Policy</a></li>
+						</ul>
+					</div>
+					<div class="col-md-6 mb-3 text-center text-md-right">
+						© 2025 Mercy Medical Staffing </div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<h3>Search Mercy Medical Staffing</h3>
+				<div id="searchwrapper" class="searchwrapper" tabindex="-1" aria-label="Search Form" aria-hidden="true"
+					aria-live="polite">
+					<div class="search-form"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<svg id="icon-library" style="display:none" xmlns="http://www.w3.org/2000/svg"
+		xmlns:xlink="http://www.w3.org/1999/xlink">
+		<defs>
+			<symbol viewBox="0 0 512 512" id="briefcase">
+				<path fill="currentColor"
+					d="M320 336c0 8.844-7.156 16-16 16h-96c-8.8 0-16-7.2-16-16v-48H0v144c0 25.6 22.41 48 48 48h416c25.59 0 48-22.41 48-48V288H320zM464 96h-80V48c0-25.59-22.4-48-48-48H176c-25.6 0-48 22.41-48 48v48H48c-25.59 0-48 22.4-48 48v112h512V144c0-25.6-22.4-48-48-48zm-128 0H176V48h160z">
+				</path>
+			</symbol>
+			<symbol aria-hidden="true" viewBox="0 0 256 512" class="svg-inline--fa fa-chevron-left fa-w-8 fa-2x"
+				id="chevron-left">
+				<path fill="currentColor"
+					d="M231.293 473.899l19.799-19.799c4.686-4.686 4.686-12.284 0-16.971L70.393 256 251.092 74.87c4.686-4.686 4.686-12.284 0-16.971L231.293 38.1c-4.686-4.686-12.284-4.686-16.971 0L4.908 247.515c-4.686 4.686-4.686 12.284 0 16.971L214.322 473.9c4.687 4.686 12.285 4.686 16.971-.001z">
+				</path>
+			</symbol>
+			<symbol aria-hidden="true" viewBox="0 0 256 512" id="chevron-right">
+				<path fill="currentColor"
+					d="M24.707 38.101L4.908 57.899c-4.686 4.686-4.686 12.284 0 16.971L185.607 256 4.908 437.13c-4.686 4.686-4.686 12.284 0 16.971L24.707 473.9c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L41.678 38.101c-4.687-4.687-12.285-4.687-16.971 0z">
+				</path>
+			</symbol>
+			<symbol aria-hidden="true" viewBox="0 0 448 512" class="svg-inline--fa fa-envelope-square fa-w-14 fa-2x"
+				id="email">
+				<path fill="currentColor"
+					d="M400 32H48C21.49 32 0 53.49 0 80v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V80c0-26.51-21.49-48-48-48zM178.117 262.104C87.429 196.287 88.353 196.121 64 177.167V152c0-13.255 10.745-24 24-24h272c13.255 0 24 10.745 24 24v25.167c-24.371 18.969-23.434 19.124-114.117 84.938-10.5 7.655-31.392 26.12-45.883 25.894-14.503.218-35.367-18.227-45.883-25.895zM384 217.775V360c0 13.255-10.745 24-24 24H88c-13.255 0-24-10.745-24-24V217.775c13.958 10.794 33.329 25.236 95.303 70.214 14.162 10.341 37.975 32.145 64.694 32.01 26.887.134 51.037-22.041 64.72-32.025 61.958-44.965 81.325-59.406 95.283-70.199z">
+				</path>
+			</symbol>
+			<symbol aria-hidden="true" viewBox="0 0 512 512" class="svg-inline--fa fa-envelope fa-w-16 fa-2x"
+				id="envelope">
+				<path fill="currentColor"
+					d="M464 64H48C21.5 64 0 85.5 0 112v288c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM48 96h416c8.8 0 16 7.2 16 16v41.4c-21.9 18.5-53.2 44-150.6 121.3-16.9 13.4-50.2 45.7-73.4 45.3-23.2.4-56.6-31.9-73.4-45.3C85.2 197.4 53.9 171.9 32 153.4V112c0-8.8 7.2-16 16-16zm416 320H48c-8.8 0-16-7.2-16-16V195c22.8 18.7 58.8 47.6 130.7 104.7 20.5 16.4 56.7 52.5 93.3 52.3 36.4.3 72.3-35.5 93.3-52.3 71.9-57.1 107.9-86 130.7-104.7v205c0 8.8-7.2 16-16 16z">
+				</path>
+			</symbol>
+			<symbol aria-hidden="true" viewBox="0 0 448 512" class="svg-inline--fa fa-facebook-square fa-w-14 fa-2x"
+				id="facebook">
+				<path fill="currentColor"
+					d="M400 32H48A48 48 0 000 80v352a48 48 0 0048 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0048-48V80a48 48 0 00-48-48z">
+				</path>
+			</symbol>
+			<symbol viewBox="0 0 512 512" id="fax">
+				<path fill="currentColor"
+					d="M192 64h197.5L416 90.51V160h64V77.25c0-8.484-3.375-16.62-9.375-22.62l-45.25-45.25C419.4 3.375 411.2 0 402.8 0H160c-17.7 0-32 14.33-32 32v128h64V64zM64 128H32c-17.62 0-32 14.4-32 32v320c0 17.62 14.38 32 32 32h32c17.62 0 32-14.38 32-32V160c0-17.6-14.37-32-32-32zm416 64H128v288c0 17.6 14.4 32 32 32h320c17.6 0 32-14.4 32-32V224c0-17.6-14.4-32-32-32zM288 432c0 8.875-7.125 16-16 16h-32c-8.9 0-16-7.1-16-16v-32c0-8.9 7.1-16 16-16h32c8.875 0 16 7.125 16 16v32zm0-128c0 8.875-7.125 16-16 16h-32c-8.9 0-16-7.1-16-16v-32c0-8.9 7.1-16 16-16h32c8.9 0 16 7.1 16 16v32zm128 128c0 8.875-7.125 16-16 16h-32c-8.875 0-16-7.125-16-16v-32c0-8.875 7.125-16 16-16h32c8.875 0 16 7.125 16 16v32zm0-128c0 8.875-7.125 16-16 16h-32c-8.9 0-16-7.1-16-16v-32c0-8.9 7.1-16 16-16h32c8.9 0 16 7.1 16 16v32z">
+				</path>
+			</symbol>
+			<symbol aria-hidden="true" viewBox="0 0 512 512" class="svg-inline--fa fa-heart fa-w-16 fa-2x" id="heart">
+				<path fill="currentColor"
+					d="M462.3 62.7c-54.5-46.4-136-38.7-186.6 13.5L256 96.6l-19.7-20.3C195.5 34.1 113.2 8.7 49.7 62.7c-62.8 53.6-66.1 149.8-9.9 207.8l193.5 199.8c6.2 6.4 14.4 9.7 22.6 9.7 8.2 0 16.4-3.2 22.6-9.7L472 270.5c56.4-58 53.1-154.2-9.7-207.8zm-13.1 185.6L256.4 448.1 62.8 248.3c-38.4-39.6-46.4-115.1 7.7-161.2 54.8-46.8 119.2-12.9 142.8 11.5l42.7 44.1 42.7-44.1c23.2-24 88.2-58 142.8-11.5 54 46 46.1 121.5 7.7 161.2z">
+				</path>
+			</symbol>
+			<symbol viewBox="0 0 33.47 36.98" id="hearts">
+				<path
+					d="M31.01 22.87l-.04-.04-3.01-2.76a.26.26 0 00-.35 0l-2.35 2.15c-.12.1-.12.27 0 .38l3.16 2.89a4.61 4.61 0 011.32 3.55 4.564 4.564 0 01-1.81 3.35c-.77.59-1.71.91-2.72.91-1.29 0-2.55-.53-3.48-1.44l-3.49-3.6c-.42-.42-.96-.64-1.55-.64s-1.13.23-1.55.65l-3.45 3.55c-.93.92-2.2 1.44-3.49 1.44-1.19 0-2.29-.43-3.11-1.23-.91-.88-1.42-2.07-1.42-3.32s.48-2.37 1.3-3.22l11.38-10.41c.19-.17.49-.17.68 0l2.01 1.83c.1.09.25.09.35 0l2.35-2.15c.12-.1.12-.27 0-.38l-3.33-3.05c-.97-.88-2.45-.88-3.4 0L2.48 22.82l-.04.04c-3.23 3.22-3.23 8.48 0 11.7 2.61 2.6 6.53 3.11 9.65 1.52 1.87-1.14 3.56-3.12 4.35-4.38.16-.26.45-.26.61 0 .78 1.26 2.48 3.24 4.36 4.38 3.11 1.57 7.02 1.08 9.63-1.52 1.56-1.56 2.43-3.64 2.43-5.85s-.87-4.29-2.43-5.85h-.03z"
+					fill="#df4661"></path>
+				<path
+					d="M2.43 14.11l.04.04 3.01 2.76c.1.09.25.09.35 0l2.35-2.15c.12-.1.12-.27 0-.38l-3.16-2.89c-.93-.94-1.4-2.24-1.32-3.55.09-1.34.74-2.53 1.81-3.35.77-.59 1.71-.91 2.72-.91 1.29 0 2.55.53 3.48 1.44l3.49 3.6c.42.42.96.64 1.55.64s1.13-.23 1.55-.65l3.45-3.55c.93-.92 2.2-1.44 3.49-1.44 1.19 0 2.29.43 3.11 1.23.91.88 1.42 2.07 1.42 3.32s-.48 2.37-1.3 3.22L17.09 21.9c-.19.17-.49.17-.68 0l-2.01-1.83a.26.26 0 00-.35 0l-2.35 2.15c-.12.1-.12.27 0 .38l3.33 3.05c.97.88 2.45.88 3.4 0l12.54-11.48.04-.04c3.23-3.22 3.23-8.48 0-11.7C28.4-.19 24.48-.68 21.36.91c-1.87 1.14-3.56 3.12-4.35 4.38-.16.26-.45.26-.61 0-.78-1.26-2.48-3.24-4.35-4.38a8.314 8.314 0 00-9.62 1.5C.87 3.97 0 6.05 0 8.26s.87 4.29 2.43 5.85zM169.68 22.1c-1.81 0-3.32-1.4-3.32-3.34s1.51-3.34 3.32-3.34 3.32 1.4 3.32 3.34-1.51 3.34-3.32 3.34zm0-6.17c-1.54 0-2.79 1.18-2.79 2.83s1.26 2.85 2.79 2.85 2.8-1.18 2.8-2.85-1.26-2.83-2.8-2.83zm-.62 3.19v1.34h-.61v-3.5h1.42c.74 0 1.23.4 1.23 1.08 0 .56-.35.92-.84 1.04l.97 1.39h-.71l-.91-1.34h-.55zm.84-1.62h-.84v1.05h.84c.38 0 .61-.23.61-.53s-.22-.53-.61-.53z"
+					fill="#3255a4"></path>
+			</symbol>
+			<symbol viewBox="0 0 448 512" id="instagram">
+				<path fill="currentColor"
+					d="M224 202.66A53.34 53.34 0 10277.36 256 53.38 53.38 0 00224 202.66zm124.71-41a54 54 0 00-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31 6.43a54 54 0 00-30.41 30.41c-8.28 21-6.43 71.05-6.43 94.33s-1.85 73.27 6.47 94.34a54 54 0 0030.41 30.41c21 8.29 71 6.43 94.31 6.43s73.24 1.93 94.3-6.43a54 54 0 0030.41-30.41c8.35-21 6.43-71.05 6.43-94.33s1.92-73.26-6.43-94.33zM224 338a82 82 0 1182-82 81.9 81.9 0 01-82 82zm85.38-148.3a19.14 19.14 0 1119.13-19.14 19.1 19.1 0 01-19.09 19.18zM400 32H48A48 48 0 000 80v352a48 48 0 0048 48h352a48 48 0 0048-48V80a48 48 0 00-48-48zm-17.12 290c-1.29 25.63-7.14 48.34-25.85 67s-41.4 24.63-67 25.85c-26.41 1.49-105.59 1.49-132 0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61 0-132 1.29-25.63 7.07-48.34 25.85-67s41.47-24.56 67-25.78c26.41-1.49 105.59-1.49 132 0 25.63 1.29 48.33 7.15 67 25.85s24.63 41.42 25.85 67.05c1.49 26.32 1.49 105.44 0 131.88z">
+				</path>
+			</symbol>
+			<symbol aria-hidden="true" viewBox="0 0 448 512" class="svg-inline--fa fa-linkedin fa-w-14 fa-2x"
+				id="linkedin">
+				<path fill="currentColor"
+					d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+				</path>
+			</symbol>
+			<symbol aria-hidden="true" viewBox="0 0 512 512" id="location">
+				<path fill="currentColor"
+					d="M208 96c-49.53 0-89.81 40.3-89.81 89.83 0 34.66 38.34 87.2 70.53 125.2 4.81 5.7 11.84 8.97 19.28 8.97s14.47-3.27 19.31-8.97c32.16-38 70.5-90.55 70.5-125.2C297.81 136.3 257.53 96 208 96zm0 188.23c-35.31-42.7-57.81-80.89-57.81-98.41 0-31.89 25.94-57.83 57.81-57.83s57.81 25.94 57.81 57.83c0 17.52-22.5 55.71-57.81 98.41zM208 160c-13.25 0-24 10.74-24 24 0 13.25 10.75 24 24 24s24-10.75 24-24c0-13.26-10.75-24-24-24zm300.47 321.58l-128.99-129c-2.3-2.3-5.3-3.5-8.5-3.5h-10.3c34.3-37.1 55.3-86.6 55.3-141.09C415.98 93.1 322.88 0 207.99 0S0 93.1 0 207.99c0 114.89 93.1 207.99 207.99 207.99 54.5 0 103.99-21 141.09-55.2v10.2c0 3.2 1.3 6.2 3.5 8.5l128.99 128.99c4.7 4.7 12.3 4.7 17 0l9.9-9.9c4.71-4.69 4.71-12.29 0-16.99zm-300.48-97.6C110.7 383.98 32 305.29 32 207.99 32 110.69 110.7 32 207.99 32s175.99 78.7 175.99 175.99c0 97.3-78.69 175.99-175.99 175.99z">
+				</path>
+			</symbol>
+			<symbol viewBox="0 0 173 52.01" id="maxhealthcare-logo">
+				<g clip-path="url(#maxhealthcare-logo_a)">
+					<g fill="#3255a4">
+						<path
+							d="M47.64 17.06c.41.62.67.58 1.32 0 1.61-1.31 3.35-1.69 4.53-1.69 1.74 0 3.66.62 5 1.85.78.69 1.23.49 1.94-.04 1.94-1.56 3.51-1.81 4.71-1.81 4.95 0 7.68 2.8 7.68 7.61v12.51c0 .33-.2.53-.54.53h-5.45c-.33 0-.54-.2-.54-.53V23.8c0-1.69-.62-2.63-2.19-2.63-1.9 0-2.93 1.44-2.93 4.2V35.5c0 .33-.2.53-.54.53h-5.45c-.33 0-.54-.2-.54-.53V23.73c0-1.6-.7-2.56-2.19-2.56-1.98 0-2.88 1.44-2.88 4.2V35.5c0 .33-.2.53-.54.53h-5.49c-.33 0-.54-.2-.54-.53V16.37c0-.33.2-.53.54-.53h2.93c.29 0 .49.13.62.38l.54.87h-.01zM79.94 16.03c1.52-.42 2.97-.66 4.53-.66 6.27 0 9.94 2.96 9.94 7.99v12.13c0 .33-.2.53-.54.53h-3.1c-.33 0-.49-.13-.67-.38l-.38-.74c-.25-.49-.62-.58-1.32 0-1.07.94-2.72 1.56-4.46 1.56-4.91 0-7.84-2.43-7.84-6.59 0-3.83 3.06-6.1 8.17-6.1h3.88v-.09c-.16-1.76-1.69-2.8-4.04-2.8-.83 0-1.77.16-2.68.4l-1.56.45c-.33.09-.54-.04-.67-.38l-1.27-4.28c-.13-.38 0-.58.38-.66l1.61-.45V16zm4.39 11.84c-1.2 0-2.06.66-2.06 1.56 0 1.16.87 1.81 2.35 1.81 2.14 0 3.35-1.03 3.59-3.29v-.09h-3.88zM114.22 22.69c-.74 1.31-1.81 2.43-2.77 2.87-.2.13-.2.29-.04.38 1.11.74 1.98 1.56 2.85 3.09l3.51 6.34c.2.38.09.66-.38.66h-5.98c-.33 0-.49-.13-.67-.38l-2.43-4.69c-.25-.45-.45-.45-.7 0l-2.48 4.69a.65.65 0 01-.62.38h-6.03c-.45 0-.58-.29-.38-.66l3.51-6.34c.87-1.44 1.74-2.43 2.84-3.09.16-.09.16-.25-.04-.38-.87-.49-2.03-1.65-2.77-2.87l-3.46-6.21c-.2-.38-.09-.66.38-.66h5.94c.29 0 .49.13.62.38l2.48 4.74c.2.45.45.45.7 0l2.43-4.74c.16-.25.33-.38.67-.38h5.9c.45 0 .58.29.38.66l-3.46 6.21h.01zM129.81 35.49c0 .33-.2.53-.54.53h-5.45c-.33 0-.54-.2-.54-.53V21.55h-2.14c-.33 0-.54-.2-.54-.53v-4.65c0-.33.2-.53.54-.53h8.13c.33 0 .54.2.54.53zm-.13-26.09c0 2.34-1.32 3.78-3.67 3.78s-3.67-1.44-3.67-3.78 1.36-3.74 3.67-3.74 3.67 1.36 3.67 3.74zM139.01 17.06c.42.62.67.58 1.32 0 1.61-1.31 3.35-1.69 4.53-1.69 1.74 0 3.66.62 5 1.85.78.69 1.23.49 1.94-.04 1.94-1.56 3.5-1.81 4.71-1.81 4.95 0 7.68 2.8 7.68 7.61v12.51c0 .33-.2.53-.54.53h-5.45c-.33 0-.54-.2-.54-.53V23.8c0-1.69-.62-2.63-2.19-2.63-1.9 0-2.93 1.44-2.93 4.2V35.5c0 .33-.2.53-.54.53h-5.45c-.33 0-.54-.2-.54-.53V23.73c0-1.6-.7-2.56-2.19-2.56-1.98 0-2.88 1.44-2.88 4.2V35.5c0 .33-.2.53-.54.53h-5.49c-.33 0-.54-.2-.54-.53V16.37c0-.33.2-.53.54-.53h2.93c.29 0 .49.13.62.38l.54.87h-.01zM44.64 43.94c0 .68-.07 1.13-.23 1.6-.06.16.03.26.2.13.48-.52 1.09-.82 1.9-.82 1.61 0 2.59 1 2.59 2.67v4.16c0 .1-.06.16-.16.16h-1.26c-.1 0-.16-.06-.16-.16v-3.99c0-.91-.46-1.43-1.23-1.43-1.14 0-1.64.91-1.65 2.12v3.29c0 .1-.06.16-.16.16h-1.26c-.1 0-.16-.06-.16-.16v-9.81c0-.1.06-.16.16-.16h1.26c.1 0 .16.06.16.16v2.07zM55.52 51.81c-.51.13-.98.19-1.45.19-2.14 0-3.35-1.39-3.35-3.57s1.22-3.57 3.29-3.57c1.69 0 2.74.85 2.74 2.24 0 1.08-.67 1.7-2.09 1.92l-2.22.33c.16.75.72 1.21 1.61 1.21.39 0 .83-.04 1.12-.14l.62-.16c.1-.03.17 0 .2.12l.29 1.05c.03.1 0 .17-.12.2l-.65.17zm-1.09-4c.49-.09.77-.3.77-.68 0-.56-.43-.87-1.2-.87-.93 0-1.56.58-1.68 1.88l2.13-.33h-.01zM59.18 45.07c.48-.14.96-.22 1.54-.22 1.91 0 3.09.98 3.09 2.7v4.13c0 .1-.06.16-.16.16h-.71c-.1 0-.16-.04-.19-.13l-.12-.43c-.09-.2-.17-.2-.35-.03-.43.48-1.07.75-1.94.75-1.56 0-2.45-.81-2.45-2.12s.91-2.17 2.58-2.17h1.77v-.09c0-.87-.55-1.33-1.59-1.33-.41 0-.77.04-1.1.14l-.51.16c-.1.03-.17 0-.2-.12l-.3-1.04c-.03-.1 0-.17.12-.2l.54-.16zm1.3 3.84c-.7 0-1.01.32-1.01.81 0 .55.38.9 1.06.9 1.12 0 1.72-.55 1.72-1.59v-.1h-1.77zM67.32 50.19c0 .25.1.38.29.38h.1c.1 0 .16 0 .2.09l.42 1c.04.1 0 .17-.07.22-.2.09-.43.13-.65.13-1.16 0-1.85-.66-1.85-1.81v-8.31c0-.1.06-.16.16-.16h1.26c.1 0 .16.06.16.16v8.31h-.01zM73.22 45.01c.1 0 .16.06.16.16v1.08c0 .1-.06.16-.16.16h-1.58v3.42c0 .48.22.75.55.75.13 0 .26 0 .36-.06.1-.04.17-.03.22.07l.45.95c.04.09 0 .16-.07.22-.26.14-.62.25-.96.25-1.35 0-2.13-.81-2.13-2.17v-3.42h-.7c-.1 0-.16-.06-.16-.16v-1.08c0-.1.06-.16.16-.16h.7V43.4c0-.09.04-.14.13-.17l1.26-.42c.12-.03.19 0 .19.13v2.09h1.58V45zM76.66 43.94c0 .68-.07 1.13-.23 1.6-.06.16.03.26.2.13.48-.52 1.09-.82 1.9-.82 1.61 0 2.59 1 2.59 2.67v4.16c0 .1-.06.16-.16.16H79.7c-.1 0-.16-.06-.16-.16v-3.99c0-.91-.46-1.43-1.23-1.43-1.14 0-1.64.91-1.65 2.12v3.29c0 .1-.06.16-.16.16h-1.26c-.1 0-.16-.06-.16-.16v-9.81c0-.1.06-.16.16-.16h1.26c.1 0 .16.06.16.16v2.07zM87.43 51.81c-.42.12-.88.19-1.32.19-2.16 0-3.36-1.39-3.36-3.58s1.17-3.55 3.39-3.55c.36 0 .78.04 1.22.17l.61.17c.1.03.14.1.12.2l-.32 1.05c-.03.09-.1.13-.19.1l-.48-.13c-.35-.12-.7-.16-.94-.16-1.26 0-1.84.81-1.84 2.12s.61 2.17 1.81 2.17c.29 0 .7-.06 1.04-.16l.46-.14c.1-.03.17 0 .2.1l.32 1.05c.03.1 0 .17-.12.2l-.62.19h.01zM90.71 45.07c.48-.14.96-.22 1.54-.22 1.91 0 3.09.98 3.09 2.7v4.13c0 .1-.06.16-.16.16h-.71c-.1 0-.16-.04-.19-.13l-.12-.43c-.09-.2-.17-.2-.35-.03-.43.48-1.07.75-1.94.75-1.56 0-2.45-.81-2.45-2.12s.91-2.17 2.58-2.17h1.77v-.09c0-.87-.55-1.33-1.59-1.33-.41 0-.77.04-1.1.14l-.51.16c-.1.03-.17 0-.2-.12l-.3-1.04c-.03-.1 0-.17.12-.2l.54-.16zm1.3 3.84c-.7 0-1.01.32-1.01.81 0 .55.38.9 1.06.9 1.12 0 1.72-.55 1.72-1.59v-.1h-1.77zM101.25 46.12c0 .1-.06.16-.16.16-1.54.07-2.22 1.14-2.22 3.74v1.68c0 .1-.06.16-.16.16h-1.26c-.1 0-.16-.06-.16-.16v-6.53c0-.1.06-.16.16-.16h.71c.1 0 .16.04.19.13l.23.81c.09.16.16.19.29.04.56-.74 1.2-1.08 2.23-1.11.1 0 .16.06.16.16v1.1h-.01zM107.33 51.81c-.51.13-.99.19-1.45.19-2.13 0-3.33-1.39-3.33-3.57s1.22-3.57 3.29-3.57c1.69 0 2.74.85 2.74 2.24 0 1.08-.67 1.7-2.08 1.92l-2.22.33c.16.75.72 1.21 1.61 1.21.39 0 .83-.04 1.12-.14l.62-.16c.1-.03.17 0 .2.12l.29 1.05c.03.1 0 .17-.12.2l-.65.17h-.01zm-1.09-4c.49-.09.77-.3.77-.68 0-.56-.44-.87-1.2-.87-.93 0-1.57.58-1.68 1.88l2.13-.33zM114.93 48.81c-1.17-.29-1.72-.91-1.72-1.92 0-1.27.94-2.04 2.59-2.04.64 0 1.29.1 1.75.23l.62.16c.1.03.14.1.12.2l-.29 1.05c-.03.1-.1.14-.2.12l-.62-.17c-.38-.12-.94-.17-1.38-.17-.65 0-1.03.25-1.03.62 0 .32.2.52.64.65l1.42.36c1.23.3 1.78.94 1.78 1.96 0 1.33-.99 2.12-2.67 2.12-.74 0-1.48-.1-2.16-.29l-.55-.16c-.1-.03-.14-.1-.12-.2l.32-1.05c.03-.09.1-.13.19-.1l.51.14c.54.16 1.29.25 1.81.25.69 0 1.09-.27 1.09-.71 0-.33-.2-.55-.67-.69zM124.69 51.81c-.51.13-.99.19-1.45.19-2.13 0-3.33-1.39-3.33-3.57s1.22-3.57 3.29-3.57c1.69 0 2.74.85 2.74 2.24 0 1.08-.67 1.7-2.08 1.92l-2.22.33c.16.75.72 1.21 1.61 1.21.39 0 .83-.04 1.12-.14l.62-.16c.1-.03.17 0 .2.12l.29 1.05c.03.1 0 .17-.12.2l-.65.17h-.01zm-1.09-4c.49-.09.77-.3.77-.68 0-.56-.43-.87-1.2-.87-.93 0-1.56.58-1.68 1.88l2.13-.33h-.01zM131.59 46.12c0 .1-.06.16-.16.16-1.54.07-2.22 1.14-2.22 3.74v1.68c0 .1-.06.16-.16.16h-1.26c-.1 0-.16-.06-.16-.16v-6.53c0-.1.06-.16.16-.16h.71c.1 0 .16.04.19.13l.23.81c.09.16.16.19.29.04.56-.74 1.2-1.08 2.23-1.11.1 0 .16.06.16.16v1.1h-.01zM138.32 48.52c-.42 1.08-.85 2.3-1.09 3.21-.03.09-.09.13-.19.13h-1.51c-.1 0-.16-.04-.19-.13-.25-.91-.67-2.11-1.09-3.21l-1.4-3.34c-.04-.12 0-.19.13-.19h1.32c.09 0 .15.04.19.12l1 2.37c.32.84.57 1.69.68 2.33.03.16.19.16.23 0 .1-.64.35-1.52.68-2.33l1-2.37s.1-.12.19-.12h1.32c.12 0 .17.07.13.19zM143.37 51.7c0 .1-.06.16-.16.16h-1.26c-.1 0-.16-.06-.16-.16v-5.29h-.69c-.1 0-.16-.06-.16-.16v-1.08c0-.1.06-.16.16-.16h2.11c.1 0 .16.06.16.16zm0-9.13c0 .61-.33.95-.93.95s-.94-.35-.94-.95.35-.94.94-.94.93.35.93.94zM149.74 51.81c-.42.12-.88.19-1.32.19-2.16 0-3.35-1.39-3.35-3.58s1.17-3.55 3.39-3.55c.36 0 .78.04 1.22.17l.61.17c.1.03.14.1.12.2l-.32 1.05c-.03.09-.1.13-.19.1l-.48-.13c-.35-.12-.7-.16-.94-.16-1.26 0-1.84.81-1.84 2.12s.61 2.17 1.81 2.17c.3 0 .69-.06 1.04-.16l.46-.14c.1-.03.17 0 .2.1l.32 1.05c.03.1 0 .17-.12.2l-.62.19zM156.53 51.81c-.51.13-.99.19-1.45.19-2.13 0-3.33-1.39-3.33-3.57s1.22-3.57 3.29-3.57c1.69 0 2.74.85 2.74 2.24 0 1.08-.67 1.7-2.09 1.92l-2.22.33c.16.75.72 1.21 1.61 1.21.39 0 .83-.04 1.12-.14l.62-.16c.1-.03.17 0 .2.12l.29 1.05c.03.1 0 .17-.12.2l-.65.17h-.01zm-1.09-4c.49-.09.77-.3.77-.68 0-.56-.43-.87-1.2-.87-.93 0-1.56.58-1.68 1.88l2.13-.33h-.01zM161.05 48.81c-1.17-.29-1.72-.91-1.72-1.92 0-1.27.94-2.04 2.59-2.04.64 0 1.29.1 1.75.23l.62.16c.1.03.15.1.12.2l-.29 1.05c-.03.1-.1.14-.2.12l-.62-.17c-.38-.12-.94-.17-1.38-.17-.65 0-1.03.25-1.03.62 0 .32.2.52.64.65l1.42.36c1.23.3 1.78.94 1.78 1.96 0 1.33-.99 2.12-2.66 2.12-.74 0-1.48-.1-2.16-.29l-.55-.16c-.1-.03-.15-.1-.12-.2l.32-1.05c.03-.09.1-.13.19-.1l.51.14c.54.16 1.29.25 1.81.25.69 0 1.09-.27 1.09-.71 0-.33-.2-.55-.67-.69l-1.43-.36z">
+						</path>
+					</g>
+					<path
+						d="M31.01 22.87l-.04-.04-3.01-2.76a.26.26 0 00-.35 0l-2.35 2.15c-.12.1-.12.27 0 .38l3.16 2.89a4.61 4.61 0 011.32 3.55 4.564 4.564 0 01-1.81 3.35c-.77.59-1.71.91-2.72.91-1.29 0-2.55-.53-3.48-1.44l-3.49-3.6c-.42-.42-.96-.64-1.55-.64s-1.13.23-1.55.65l-3.45 3.55c-.93.92-2.2 1.44-3.49 1.44-1.19 0-2.29-.43-3.11-1.23-.91-.88-1.42-2.07-1.42-3.32s.48-2.37 1.3-3.22l11.38-10.41c.19-.17.49-.17.68 0l2.01 1.83c.1.09.25.09.35 0l2.35-2.15c.12-.1.12-.27 0-.38l-3.33-3.05c-.97-.88-2.45-.88-3.4 0L2.48 22.82l-.04.04c-3.23 3.22-3.23 8.48 0 11.7 2.61 2.6 6.53 3.11 9.65 1.52 1.87-1.14 3.56-3.12 4.35-4.38.16-.26.45-.26.61 0 .78 1.26 2.48 3.24 4.36 4.38 3.11 1.57 7.02 1.08 9.63-1.52 1.56-1.56 2.43-3.64 2.43-5.85s-.87-4.29-2.43-5.85h-.01z"
+						fill="#df4661"></path>
+					<path
+						d="M2.43 14.11l.04.04 3.01 2.76c.1.09.25.09.35 0l2.35-2.15c.12-.1.12-.27 0-.38l-3.16-2.89c-.93-.94-1.4-2.24-1.32-3.55.09-1.34.74-2.53 1.81-3.35.77-.59 1.71-.91 2.72-.91 1.29 0 2.55.53 3.48 1.44l3.49 3.6c.42.42.96.64 1.55.64s1.13-.23 1.55-.65l3.45-3.55c.93-.92 2.2-1.44 3.49-1.44 1.19 0 2.29.43 3.11 1.23.91.88 1.42 2.07 1.42 3.32s-.48 2.37-1.3 3.22L17.09 21.9c-.19.17-.49.17-.68 0l-2.01-1.83a.26.26 0 00-.35 0l-2.35 2.15c-.12.1-.12.27 0 .38l3.33 3.05c.97.88 2.45.88 3.4 0l12.54-11.48.04-.04c3.23-3.22 3.23-8.48 0-11.7C28.4-.19 24.48-.68 21.36.91c-1.87 1.14-3.56 3.12-4.35 4.38-.16.26-.45.26-.61 0-.78-1.26-2.48-3.24-4.35-4.38a8.314 8.314 0 00-9.62 1.5C.87 3.97 0 6.05 0 8.26s.87 4.29 2.43 5.85zM169.68 22.1c-1.81 0-3.32-1.4-3.32-3.34s1.51-3.34 3.32-3.34 3.32 1.4 3.32 3.34-1.51 3.34-3.32 3.34zm0-6.17c-1.54 0-2.79 1.18-2.79 2.83s1.26 2.85 2.79 2.85 2.8-1.18 2.8-2.85-1.26-2.83-2.8-2.83zm-.62 3.19v1.34h-.61v-3.5h1.42c.74 0 1.23.4 1.23 1.08 0 .56-.35.92-.84 1.04l.97 1.39h-.71l-.91-1.34h-.55zm.84-1.62h-.84v1.05h.84c.38 0 .61-.23.61-.53s-.22-.53-.61-.53z"
+						fill="#3255a4"></path>
+				</g>
+			</symbol>
+			<clipPath id="maxhealthcare-logo_a">
+				<path d="M0 0h173v52H0z"></path>
+			</clipPath>
+			<symbol viewBox="0 0 119.44 36" id="maxhealthcare-logo-white">
+				<g fill="#fff">
+					<path
+						d="M32.89 11.81c.28.43.45.4.91 0a5 5 0 013.13-1.17 5.16 5.16 0 013.45 1.29c.54.48.85.34 1.34 0A4.91 4.91 0 0145 10.64c3.42 0 5.3 1.94 5.3 5.27v8.66a.34.34 0 01-.37.37h-3.8a.34.34 0 01-.37-.37v-8.09c0-1.16-.43-1.82-1.51-1.82-1.31 0-2 1-2 2.91v7a.34.34 0 01-.37.37H38.1a.34.34 0 01-.37-.37v-8.14c0-1.11-.48-1.77-1.51-1.77-1.37 0-2 1-2 2.91v7a.35.35 0 01-.37.37h-3.78a.34.34 0 01-.37-.37V11.33a.34.34 0 01.37-.37h2a.45.45 0 01.43.25zM55.19 11.1a11.91 11.91 0 013.13-.46c4.33 0 6.87 2.06 6.87 5.53v8.4a.35.35 0 01-.37.37h-2.14a.49.49 0 01-.46-.25l-.22-.52c-.17-.34-.43-.4-.91 0A4.72 4.72 0 0158 25.26c-3.39 0-5.41-1.68-5.41-4.56 0-2.65 2.11-4.22 5.64-4.22h2.68v-.05c-.12-1.23-1.17-1.94-2.8-1.94a7.42 7.42 0 00-1.85.28l-1.08.32a.34.34 0 01-.45-.26l-.89-3c-.08-.26 0-.4.26-.46zm3 8.2c-.83 0-1.43.46-1.43 1.09 0 .79.6 1.25 1.63 1.25a2.24 2.24 0 002.48-2.28v-.06zM78.86 15.71a5.07 5.07 0 01-1.91 2c-.14.08-.14.2 0 .25a5.89 5.89 0 012 2.14l2.42 4.39c.14.25 0 .45-.26.45h-4.19a.47.47 0 01-.45-.25l-1.69-3.25c-.17-.31-.31-.31-.48 0l-1.71 3.25a.44.44 0 01-.43.25H68c-.32 0-.4-.2-.26-.45l2.42-4.39a5.81 5.81 0 012-2.14c.11-.05.11-.17 0-.25a6 6 0 01-1.91-2l-2.39-4.3c-.15-.25-.06-.45.25-.45h4.1a.44.44 0 01.43.25l1.71 3.28c.14.31.31.31.48 0l1.69-3.28a.47.47 0 01.45-.25H81c.32 0 .4.2.26.45zM89.62 24.57a.34.34 0 01-.37.37h-3.76a.35.35 0 01-.37-.37v-9.65h-1.48a.35.35 0 01-.37-.37v-3.22a.34.34 0 01.37-.37h5.61a.34.34 0 01.37.37zm-.08-18.06a2.54 2.54 0 11-5.07 0 2.54 2.54 0 115.07 0zM96 11.81c.29.43.46.4.92 0a5 5 0 013.08-1.17 5.17 5.17 0 013.45 1.29c.54.48.85.34 1.33 0a4.92 4.92 0 013.25-1.26c3.42 0 5.3 1.94 5.3 5.27v8.66a.34.34 0 01-.37.37h-3.76a.34.34 0 01-.37-.37v-8.12c0-1.16-.43-1.82-1.51-1.82-1.31 0-2 1-2 2.91v7a.35.35 0 01-.37.37h-3.76a.34.34 0 01-.37-.37v-8.14c0-1.11-.49-1.77-1.51-1.77-1.37 0-2 1-2 2.91v7a.34.34 0 01-.37.37h-3.79a.35.35 0 01-.37-.37V11.33a.35.35 0 01.37-.37h2a.42.42 0 01.42.25zM30.82 30.42a3.36 3.36 0 01-.16 1.12c0 .1 0 .17.14.08a1.8 1.8 0 013.1 1.28v2.89a.1.1 0 01-.11.1h-.87a.1.1 0 01-.11-.1V33c0-.62-.32-1-.85-1-.79 0-1.13.63-1.14 1.48v2.28a.1.1 0 01-.11.1h-.87a.09.09 0 01-.1-.1V29a.1.1 0 01.1-.11h.87a.1.1 0 01.11.11zM38.33 35.87a4 4 0 01-1 .13A2.2 2.2 0 0135 33.53a2.19 2.19 0 012.27-2.47c1.17 0 1.88.58 1.88 1.55 0 .75-.46 1.18-1.44 1.33l-1.53.23a1 1 0 001.12.84 3 3 0 00.77-.09l.43-.11a.1.1 0 01.13.08l.2.73a.1.1 0 01-.08.14zm-.75-2.77c.34-.06.53-.22.53-.47s-.31-.6-.83-.6-1.09.4-1.17 1.3zM40.86 31.2a3.89 3.89 0 011.06-.14c1.32 0 2.13.68 2.13 1.86v2.87a.09.09 0 01-.1.1h-.49a.12.12 0 01-.13-.09l-.08-.3c-.06-.13-.11-.13-.24 0a1.72 1.72 0 01-1.34.52C40.59 36 40 35.44 40 34.53S40.61 33 41.76 33H43c0-.59-.38-.92-1.11-.92a2.64 2.64 0 00-.76.1l-.35.11a.1.1 0 01-.14-.08l-.21-.72a.1.1 0 01.08-.14zm.9 2.67c-.48 0-.71.23-.71.56s.27.61.74.61c.77 0 1.19-.38 1.19-1.1v-.07zM46.48 34.75c0 .17.07.26.2.26h.07c.07 0 .11 0 .13.06l.3.7a.1.1 0 010 .14 1.26 1.26 0 01-1.73-1.16V29a.1.1 0 01.11-.11h.87a.1.1 0 01.1.11zM50.55 31.16c.07 0 .1 0 .1.1V32c0 .07 0 .11-.1.11h-1.1v2.39c0 .33.15.51.38.51a.75.75 0 00.26 0c.07 0 .11 0 .14.05l.32.67a.1.1 0 010 .14 1.45 1.45 0 01-.67.17 1.36 1.36 0 01-1.46-1.5v-2.42h-.48a.1.1 0 01-.11-.11v-.75c0-.07 0-.1.11-.1h.48V30a.12.12 0 01.09-.12l.87-.29c.07 0 .12 0 .12.09v1.45zM52.93 30.42a3.36 3.36 0 01-.16 1.12c0 .1 0 .17.14.08A1.8 1.8 0 0156 32.9v2.89a.1.1 0 01-.11.1H55a.1.1 0 01-.11-.1V33c0-.62-.32-1-.85-1-.79 0-1.13.63-1.14 1.48v2.28a.1.1 0 01-.11.1H52a.1.1 0 01-.11-.1V29a.1.1 0 01.11-.11h.87a.1.1 0 01.11.11zM60.36 35.87a3.45 3.45 0 01-.91.13 2.2 2.2 0 01-2.31-2.48 2.19 2.19 0 012.34-2.46 3.23 3.23 0 01.84.11l.42.12a.1.1 0 01.08.14l-.23.73a.09.09 0 01-.12.07l-.33-.09a2.21 2.21 0 00-.66-.11c-.87 0-1.27.56-1.27 1.48s.42 1.5 1.25 1.5a3.19 3.19 0 00.72-.1l.33-.1a.09.09 0 01.13.07l.23.73a.1.1 0 01-.08.14zM62.63 31.2a4 4 0 011.07-.14c1.32 0 2.13.68 2.13 1.86v2.87a.1.1 0 01-.11.1h-.49a.12.12 0 01-.12-.09l-.11-.3c-.06-.13-.12-.13-.25 0a1.71 1.71 0 01-1.33.52c-1.09 0-1.69-.56-1.69-1.47s.65-1.55 1.8-1.55h1.22c0-.59-.38-.92-1.1-.92a2.59 2.59 0 00-.76.1l-.35.11a.1.1 0 01-.14-.08l-.21-.72a.1.1 0 01.07-.14zm.9 2.67c-.48 0-.7.23-.7.56s.26.61.73.61c.77 0 1.19-.38 1.19-1.1v-.07zM69.9 31.93c0 .07 0 .1-.11.1-1.06 0-1.53.8-1.53 2.59v1.17a.1.1 0 01-.11.1h-.87a.09.09 0 01-.1-.1v-4.53c0-.07 0-.1.1-.1h.49c.07 0 .11 0 .13.08l.15.56c.06.11.11.13.2 0a1.81 1.81 0 011.54-.77.1.1 0 01.11.1zM74.1 35.87a4 4 0 01-1 .13 2.2 2.2 0 01-2.3-2.47 2.18 2.18 0 012.26-2.47c1.18 0 1.89.58 1.89 1.55 0 .75-.46 1.18-1.44 1.33l-1.51.23a1 1 0 001.11.84 3 3 0 00.78-.09l.43-.11a.1.1 0 01.13.08l.2.73a.1.1 0 01-.08.14zm-.75-2.77c.34-.06.53-.22.53-.47S73.57 32 73 32s-1.08.4-1.16 1.3zM79.35 33.79c-.81-.2-1.19-.62-1.19-1.33 0-.88.66-1.4 1.79-1.4a5.26 5.26 0 011.21.15l.43.11a.1.1 0 01.08.14l-.21.73a.1.1 0 01-.13.08l-.43-.12A3.75 3.75 0 0080 32c-.45 0-.71.17-.71.43s.13.37.43.45l1 .26c.85.21 1.23.65 1.23 1.36 0 .91-.68 1.47-1.83 1.47a5.77 5.77 0 01-1.5-.2l-.38-.11a.1.1 0 01-.08-.14l.23-.73a.09.09 0 01.12-.07l.36.1a5.36 5.36 0 001.25.16c.47 0 .75-.18.75-.48s-.14-.39-.46-.48zM86.09 35.87a4 4 0 01-1 .13 2.2 2.2 0 01-2.3-2.47 2.19 2.19 0 012.27-2.47c1.17 0 1.88.58 1.88 1.55 0 .75-.46 1.18-1.44 1.33l-1.5.23a1 1 0 001.11.84 3 3 0 00.78-.09l.43-.11a.1.1 0 01.13.08l.2.73a.1.1 0 01-.08.14zm-.75-2.77c.34-.06.53-.22.53-.47S85.56 32 85 32s-1.09.4-1.17 1.3zM90.85 31.93c0 .07 0 .1-.11.1-1.07 0-1.53.8-1.53 2.59v1.17a.1.1 0 01-.11.1h-.87a.1.1 0 01-.11-.1v-4.53c0-.07 0-.1.11-.1h.49a.11.11 0 01.12.08l.16.56c.06.11.11.13.2 0a1.81 1.81 0 011.54-.77.1.1 0 01.11.1zM95.5 33.59c-.29.75-.58 1.59-.75 2.21a.12.12 0 01-.13.09h-1a.12.12 0 01-.13-.09 23.18 23.18 0 00-.75-2.21l-1-2.31c0-.08 0-.12.09-.12h.91a.14.14 0 01.13.07l.69 1.64a9.9 9.9 0 01.44 1.62c0 .1.13.1.16 0a8 8 0 01.46-1.62l.7-1.64a.13.13 0 01.12-.07h.91c.08 0 .12 0 .09.12zM99 35.79a.1.1 0 01-.11.1H98a.09.09 0 01-.1-.1v-3.67h-.48a.1.1 0 01-.11-.11v-.75c0-.07 0-.1.11-.1h1.45c.07 0 .11 0 .11.1zm0-6.33a.59.59 0 01-.64.67.66.66 0 110-1.32.59.59 0 01.64.65zM103.38 35.87a3.43 3.43 0 01-.9.13 2.2 2.2 0 01-2.32-2.48 2.19 2.19 0 012.35-2.46 3.35 3.35 0 01.84.11l.42.12a.1.1 0 01.07.14l-.22.73a.1.1 0 01-.13.07l-.33-.09a2.15 2.15 0 00-.65-.11c-.87 0-1.27.56-1.27 1.48s.42 1.5 1.25 1.5a3.35 3.35 0 00.72-.1l.32-.1a.1.1 0 01.14.07l.22.73a.1.1 0 01-.08.14zM108.07 35.87a4 4 0 01-1 .13 2.2 2.2 0 01-2.3-2.47 2.19 2.19 0 012.23-2.47c1.17 0 1.88.58 1.88 1.55 0 .75-.46 1.18-1.43 1.33l-1.54.23a1 1 0 001.12.84 3 3 0 00.77-.09l.43-.11c.07 0 .11 0 .13.08l.2.73a.1.1 0 01-.08.14zm-.75-2.77c.34-.06.53-.22.53-.47s-.31-.6-.83-.6-1.09.4-1.17 1.3zM111.19 33.79c-.82-.2-1.2-.62-1.2-1.33 0-.88.66-1.4 1.79-1.4a5.26 5.26 0 011.21.15l.43.11a.1.1 0 01.08.14l-.2.73a.1.1 0 01-.14.08l-.43-.12a3.69 3.69 0 00-1-.12c-.45 0-.71.17-.71.43s.14.37.44.45l1 .26c.85.21 1.24.65 1.24 1.36 0 .91-.69 1.47-1.84 1.47a5.77 5.77 0 01-1.5-.2l-.38-.11a.1.1 0 01-.07-.14l.22-.73a.1.1 0 01.13-.07l.35.1a5.42 5.42 0 001.25.16c.48 0 .75-.18.75-.48s-.14-.39-.46-.48zM21.41 15.83L19.3 13.9a.18.18 0 00-.24 0l-1.62 1.48a.19.19 0 000 .26l2.19 2a3.21 3.21 0 01.91 2.46 3.15 3.15 0 01-1.25 2.32 3 3 0 01-1.88.63 3.37 3.37 0 01-2.39-1l-2.41-2.48a1.52 1.52 0 00-2.14 0L8.08 22a3.41 3.41 0 01-2.41 1 3.11 3.11 0 01-2.15-.85 3.18 3.18 0 01-.08-4.53l7.86-7.22a.35.35 0 01.47 0l1.39 1.27a.16.16 0 00.24 0l1.6-1.45a.16.16 0 000-.22l-2.3-2.12a1.75 1.75 0 00-2.36 0l-8.65 8A5.73 5.73 0 008.33 25a10.45 10.45 0 003-3 .23.23 0 01.42 0 10.5 10.5 0 003 3 5.73 5.73 0 006.65-9.15z">
+					</path>
+					<path
+						d="M1.68 9.77l2.08 1.91a.17.17 0 00.23 0l1.62-1.49a.16.16 0 000-.25L3.46 8a3.21 3.21 0 01.33-4.79 3.08 3.08 0 011.88-.63 3.43 3.43 0 012.4 1L10.48 6a1.51 1.51 0 002.14 0L15 3.57a3.43 3.43 0 012.41-1 3.09 3.09 0 012.16.85A3.2 3.2 0 0119.65 8l-7.87 7.21a.35.35 0 01-.47 0l-1.39-1.32a.17.17 0 00-.23 0l-1.63 1.49a.19.19 0 000 .26l2.31 2.11a1.74 1.74 0 002.35 0l8.66-7.95A5.72 5.72 0 0014.75.63a10.43 10.43 0 00-3 3 .23.23 0 01-.42 0 10.33 10.33 0 00-3-3 5.73 5.73 0 00-6.65 9.14zM117.15 15.3a2.31 2.31 0 112.29-2.3 2.26 2.26 0 01-2.29 2.3zm0-4.27a2 2 0 101.93 2 1.91 1.91 0 00-1.93-2.03zm-.43 2.21v.94h-.41v-2.43h1a.75.75 0 01.85.75.71.71 0 01-.58.72l.66 1h-.49l-.63-.94zm.58-1.11h-.58v.74h.58a.37.37 0 100-.74z">
+					</path>
+				</g>
+			</symbol>
+			<symbol aria-hidden="true" viewBox="0 0 512 512" id="phone">
+				<path fill="currentColor"
+					d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z">
+				</path>
+			</symbol>
+			<symbol aria-hidden="true" viewBox="0 0 512 512" class="svg-inline--fa fa-search fa-w-16 fa-2x" id="search">
+				<path fill="currentColor"
+					d="M508.5 468.9L387.1 347.5c-2.3-2.3-5.3-3.5-8.5-3.5h-13.2c31.5-36.5 50.6-84 50.6-136C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c52 0 99.5-19.1 136-50.6v13.2c0 3.2 1.3 6.2 3.5 8.5l121.4 121.4c4.7 4.7 12.3 4.7 17 0l22.6-22.6c4.7-4.7 4.7-12.3 0-17zM208 368c-88.4 0-160-71.6-160-160S119.6 48 208 48s160 71.6 160 160-71.6 160-160 160z">
+				</path>
+			</symbol>
+			<symbol aria-hidden="true" viewBox="0 0 448 512" class="svg-inline--fa fa-twitter-square fa-w-14 fa-2x"
+				id="twitter">
+				<path fill="currentColor"
+					d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 01-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z">
+				</path>
+			</symbol>
+			<symbol aria-hidden="true" viewBox="0 0 448 512" class="svg-inline--fa fa-youtube-square fa-w-14 fa-2x"
+				id="youtube">
+				<path fill="currentColor"
+					d="M186.8 202.1l95.2 54.1-95.2 54.1V202.1zM448 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48zm-42 176.3s0-59.6-7.6-88.2c-4.2-15.8-16.5-28.2-32.2-32.4C337.9 128 224 128 224 128s-113.9 0-142.2 7.7c-15.7 4.2-28 16.6-32.2 32.4-7.6 28.5-7.6 88.2-7.6 88.2s0 59.6 7.6 88.2c4.2 15.8 16.5 27.7 32.2 31.9C110.1 384 224 384 224 384s113.9 0 142.2-7.7c15.7-4.2 28-16.1 32.2-31.9 7.6-28.5 7.6-88.1 7.6-88.1z">
+				</path>
+			</symbol>
+		</defs>
+	</svg>
+	<script>
+		const lazyloadRunObserver = () => {
+			const lazyloadBackgrounds = document.querySelectorAll(`.e-con.e-parent:not(.e-lazyloaded)`);
+			const lazyloadBackgroundObserver = new IntersectionObserver((entries) => {
+				entries.forEach((entry) => {
+					if (entry.isIntersecting) {
+						let lazyloadBackground = entry.target;
+						if (lazyloadBackground) {
+							lazyloadBackground.classList.add('e-lazyloaded');
+						}
+						lazyloadBackgroundObserver.unobserve(entry.target);
+					}
+				});
+			}, { rootMargin: '200px 0px 200px 0px' });
+			lazyloadBackgrounds.forEach((lazyloadBackground) => {
+				lazyloadBackgroundObserver.observe(lazyloadBackground);
+			});
+		};
+		const events = [
+			'DOMContentLoaded',
+			'elementor/lazyload/observe',
+		];
+		events.forEach((event) => {
+			document.addEventListener(event, lazyloadRunObserver);
+		});
+	</script>
+	<!-- Start of Async HubSpot Analytics Code -->
+	<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+(function(d,s,i,r) {
+if (d.getElementById(i)){return;}
+var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/2064586.js';
+e.parentNode.insertBefore(n, e);
+})(document,"script","hs-analytics",300000);
+</script>
+	<!-- End of Async HubSpot Analytics Code -->
+	<script type="text/javascript" id="jquery-core-js-extra">
+		/* <![CDATA[ */
+		var app_localized = { "themepath": "https:\/\/www.maximhealthcare.com\/wp-content\/themes\/maxhealth-2022", "ajaxurl": "https:\/\/www.maximhealthcare.com\/wp-admin\/admin-ajax.php", "check": "5c0b04a860", "namespace": "max" };
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="{% static 'js/app.min.js' %}" id="jquery-core-js"></script>
+	<script type="text/javascript" id="formhq-wordpress-adapter-js-extra">
+		/* <![CDATA[ */
+		var formhq_localized = { "platform_id": "www.maximhealthcare.com", "site_id": "1", "postmessage_target_origins": ["https:\/\/www.maximhealthcare.com"] };
+		/* ]]> */
+	</script>
+	<script type="text/javascript" id="formhq-wordpress-adapter-js-before">
+		/* <![CDATA[ */
+		window._FormHQueue = {};
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="{% static 'js/scripts.js' %}" id="formhq-wordpress-adapter-js"></script>
+	<script type="text/javascript" src="{% static 'js/gravity-forms.js' %}" id="formhq-wordpress-adapter-gravity-forms-js"></script>
+	<script type="text/javascript" id="rocket-browser-checker-js-after">
+		/* <![CDATA[ */
+		"use strict"; var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || !1, descriptor.configurable = !0, "value" in descriptor && (descriptor.writable = !0), Object.defineProperty(target, descriptor.key, descriptor) } } return function (Constructor, protoProps, staticProps) { return protoProps && defineProperties(Constructor.prototype, protoProps), staticProps && defineProperties(Constructor, staticProps), Constructor } }(); function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) throw new TypeError("Cannot call a class as a function") } var RocketBrowserCompatibilityChecker = function () { function RocketBrowserCompatibilityChecker(options) { _classCallCheck(this, RocketBrowserCompatibilityChecker), this.passiveSupported = !1, this._checkPassiveOption(this), this.options = !!this.passiveSupported && options } return _createClass(RocketBrowserCompatibilityChecker, [{ key: "_checkPassiveOption", value: function (self) { try { var options = { get passive() { return !(self.passiveSupported = !0) } }; window.addEventListener("test", null, options), window.removeEventListener("test", null, options) } catch (err) { self.passiveSupported = !1 } } }, { key: "initRequestIdleCallback", value: function () { !1 in window && (window.requestIdleCallback = function (cb) { var start = Date.now(); return setTimeout(function () { cb({ didTimeout: !1, timeRemaining: function () { return Math.max(0, 50 - (Date.now() - start)) } }) }, 1) }), !1 in window && (window.cancelIdleCallback = function (id) { return clearTimeout(id) }) } }, { key: "isDataSaverModeOn", value: function () { return "connection" in navigator && !0 === navigator.connection.saveData } }, { key: "supportsLinkPrefetch", value: function () { var elem = document.createElement("link"); return elem.relList && elem.relList.supports && elem.relList.supports("prefetch") && window.IntersectionObserver && "isIntersecting" in IntersectionObserverEntry.prototype } }, { key: "isSlowConnection", value: function () { return "connection" in navigator && "effectiveType" in navigator.connection && ("2g" === navigator.connection.effectiveType || "slow-2g" === navigator.connection.effectiveType) } }]), RocketBrowserCompatibilityChecker }();
+		/* ]]> */
+	</script>
+	<script type="text/javascript" id="rocket-preload-links-js-extra">
+		/* <![CDATA[ */
+		var RocketPreloadLinksConfig = { "excludeUris": "\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index.php\/)?(.*)wp-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/", "usesTrailingSlash": "1", "imageExt": "jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php", "fileExt": "jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm", "siteUrl": "https:\/\/www.maximhealthcare.com", "onHoverDelay": "100", "rateThrottle": "3" };
+		/* ]]> */
+	</script>
+	<script type="text/javascript" id="rocket-preload-links-js-after">
+		/* <![CDATA[ */
+		(function () {
+			"use strict"; var r = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (e) { return typeof e } : function (e) { return e && "function" == typeof Symbol && e.constructor === Symbol && e !== Symbol.prototype ? "symbol" : typeof e }, e = function () { function i(e, t) { for (var n = 0; n < t.length; n++) { var i = t[n]; i.enumerable = i.enumerable || !1, i.configurable = !0, "value" in i && (i.writable = !0), Object.defineProperty(e, i.key, i) } } return function (e, t, n) { return t && i(e.prototype, t), n && i(e, n), e } }(); function i(e, t) { if (!(e instanceof t)) throw new TypeError("Cannot call a class as a function") } var t = function () { function n(e, t) { i(this, n), this.browser = e, this.config = t, this.options = this.browser.options, this.prefetched = new Set, this.eventTime = null, this.threshold = 1111, this.numOnHover = 0 } return e(n, [{ key: "init", value: function () { !this.browser.supportsLinkPrefetch() || this.browser.isDataSaverModeOn() || this.browser.isSlowConnection() || (this.regex = { excludeUris: RegExp(this.config.excludeUris, "i"), images: RegExp(".(" + this.config.imageExt + ")$", "i"), fileExt: RegExp(".(" + this.config.fileExt + ")$", "i") }, this._initListeners(this)) } }, { key: "_initListeners", value: function (e) { -1 < this.config.onHoverDelay && document.addEventListener("mouseover", e.listener.bind(e), e.listenerOptions), document.addEventListener("mousedown", e.listener.bind(e), e.listenerOptions), document.addEventListener("touchstart", e.listener.bind(e), e.listenerOptions) } }, { key: "listener", value: function (e) { var t = e.target.closest("a"), n = this._prepareUrl(t); if (null !== n) switch (e.type) { case "mousedown": case "touchstart": this._addPrefetchLink(n); break; case "mouseover": this._earlyPrefetch(t, n, "mouseout") } } }, { key: "_earlyPrefetch", value: function (t, e, n) { var i = this, r = setTimeout(function () { if (r = null, 0 === i.numOnHover) setTimeout(function () { return i.numOnHover = 0 }, 1e3); else if (i.numOnHover > i.config.rateThrottle) return; i.numOnHover++, i._addPrefetchLink(e) }, this.config.onHoverDelay); t.addEventListener(n, function e() { t.removeEventListener(n, e, { passive: !0 }), null !== r && (clearTimeout(r), r = null) }, { passive: !0 }) } }, { key: "_addPrefetchLink", value: function (i) { return this.prefetched.add(i.href), new Promise(function (e, t) { var n = document.createElement("link"); n.rel = "prefetch", n.href = i.href, n.onload = e, n.onerror = t, document.head.appendChild(n) }).catch(function () { }) } }, { key: "_prepareUrl", value: function (e) { if (null === e || "object" !== (void 0 === e ? "undefined" : r(e)) || !1 in e || -1 === ["http:", "https:"].indexOf(e.protocol)) return null; var t = e.href.substring(0, this.config.siteUrl.length), n = this._getPathname(e.href, t), i = { original: e.href, protocol: e.protocol, origin: t, pathname: n, href: t + n }; return this._isLinkOk(i) ? i : null } }, { key: "_getPathname", value: function (e, t) { var n = t ? e.substring(this.config.siteUrl.length) : e; return n.startsWith("/") || (n = "/" + n), this._shouldAddTrailingSlash(n) ? n + "/" : n } }, { key: "_shouldAddTrailingSlash", value: function (e) { return this.config.usesTrailingSlash && !e.endsWith("/") && !this.regex.fileExt.test(e) } }, { key: "_isLinkOk", value: function (e) { return null !== e && "object" === (void 0 === e ? "undefined" : r(e)) && (!this.prefetched.has(e.href) && e.origin === this.config.siteUrl && -1 === e.href.indexOf("?") && -1 === e.href.indexOf("#") && !this.regex.excludeUris.test(e.href) && !this.regex.images.test(e.href)) } }], [{ key: "run", value: function () { "undefined" != typeof RocketPreloadLinksConfig && new n(new RocketBrowserCompatibilityChecker({ capture: !0, passive: !0 }), RocketPreloadLinksConfig).init() } }]), n }(); t.run();
+		}());
+		/* ]]> */
+	</script>
+	<script type="text/javascript" id="rocket_lazyload_css-js-extra">
+		/* <![CDATA[ */
+		var rocket_lazyload_css_data = { "threshold": "300" };
+		/* ]]> */
+	</script>
+	<script type="text/javascript" id="rocket_lazyload_css-js-after">
+		/* <![CDATA[ */
+		!function o(n, c, a) { function u(t, e) { if (!c[t]) { if (!n[t]) { var r = "function" == typeof require && require; if (!e && r) return r(t, !0); if (s) return s(t, !0); throw (e = new Error("Cannot find module '" + t + "'")).code = "MODULE_NOT_FOUND", e } r = c[t] = { exports: {} }, n[t][0].call(r.exports, function (e) { return u(n[t][1][e] || e) }, r, r.exports, o, n, c, a) } return c[t].exports } for (var s = "function" == typeof require && require, e = 0; e < a.length; e++)u(a[e]); return u }({ 1: [function (e, t, r) { "use strict"; { const c = "undefined" == typeof rocket_pairs ? [] : rocket_pairs, a = (("undefined" == typeof rocket_excluded_pairs ? [] : rocket_excluded_pairs).map(t => { var e = t.selector; document.querySelectorAll(e).forEach(e => { e.setAttribute("data-rocket-lazy-bg-" + t.hash, "excluded") }) }), document.querySelector("#wpr-lazyload-bg-container")); var o = rocket_lazyload_css_data.threshold || 300; const u = new IntersectionObserver(e => { e.forEach(t => { t.isIntersecting && c.filter(e => t.target.matches(e.selector)).map(t => { var e; t && ((e = document.createElement("style")).textContent = t.style, a.insertAdjacentElement("afterend", e), t.elements.forEach(e => { u.unobserve(e), e.setAttribute("data-rocket-lazy-bg-" + t.hash, "loaded") })) }) }) }, { rootMargin: o + "px" }); function n() { 0 < (0 < arguments.length && void 0 !== arguments[0] ? arguments[0] : []).length && c.forEach(t => { try { document.querySelectorAll(t.selector).forEach(e => { "loaded" !== e.getAttribute("data-rocket-lazy-bg-" + t.hash) && "excluded" !== e.getAttribute("data-rocket-lazy-bg-" + t.hash) && (u.observe(e), (t.elements ||= []).push(e)) }) } catch (e) { console.error(e) } }) } n(), function () { const r = window.MutationObserver; return function (e, t) { if (e && 1 === e.nodeType) return (t = new r(t)).observe(e, { attributes: !0, childList: !0, subtree: !0 }), t } }()(document.querySelector("body"), n) } }, {}] }, {}, [1]);
+		/* ]]> */
+	</script>
+	<script type="rocketlazyloadscript" data-rocket-type="text/javascript"
+		data-rocket-src="//assets.sitescdn.net/answers-search-bar/v1.2/answerstemplates.compiled.min.js"
+		id="yext-answers-scripts-js"></script>
+	<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+            //ctn loadtime display
+            (function($) {
+                $(document).on('ready', function () {
+                    $('.ctn_load_time_in_sec').text(-0.474 + " seconds");
+                });
+            })(jQuery)
+        </script>
+	<script>window.lazyLoadOptions = [{ elements_selector: "img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]", data_src: "lazy-src", data_srcset: "lazy-srcset", data_sizes: "lazy-sizes", class_loading: "lazyloading", class_loaded: "lazyloaded", threshold: 300, callback_loaded: function (element) { if (element.tagName === "IFRAME" && element.dataset.rocketLazyload == "fitvidscompatible") { if (element.classList.contains("lazyloaded")) { if (typeof window.jQuery != "undefined") { if (jQuery.fn.fitVids) { jQuery(element).parent().fitVids() } } } } } }, { elements_selector: ".rocket-lazyload", data_src: "lazy-src", data_srcset: "lazy-srcset", data_sizes: "lazy-sizes", class_loading: "lazyloading", class_loaded: "lazyloaded", threshold: 300, callback_loaded: function (element) { if (element.tagName === "IFRAME" && element.dataset.rocketLazyload == "fitvidscompatible") { if (element.classList.contains("lazyloaded")) { if (typeof window.jQuery != "undefined") { if (jQuery.fn.fitVids) { jQuery(element).parent().fitVids() } } } } } }, { elements_selector: ".rocket-lazyload", data_src: "lazy-src", data_srcset: "lazy-srcset", data_sizes: "lazy-sizes", class_loading: "lazyloading", class_loaded: "lazyloaded", threshold: 300, }]; window.addEventListener('LazyLoad::Initialized', function (e) {
+			var lazyLoadInstance = e.detail.instance; if (window.MutationObserver) {
+				var observer = new MutationObserver(function (mutations) {
+					var image_count = 0; var iframe_count = 0; var rocketlazy_count = 0; mutations.forEach(function (mutation) {
+						for (var i = 0; i < mutation.addedNodes.length; i++) {
+							if (typeof mutation.addedNodes[i].getElementsByTagName !== 'function') { continue }
+							if (typeof mutation.addedNodes[i].getElementsByClassName !== 'function') { continue }
+							images = mutation.addedNodes[i].getElementsByTagName('img'); is_image = mutation.addedNodes[i].tagName == "IMG"; iframes = mutation.addedNodes[i].getElementsByTagName('iframe'); is_iframe = mutation.addedNodes[i].tagName == "IFRAME"; rocket_lazy = mutation.addedNodes[i].getElementsByClassName('rocket-lazyload'); image_count += images.length; iframe_count += iframes.length; rocketlazy_count += rocket_lazy.length; if (is_image) { image_count += 1 }
+							if (is_iframe) { iframe_count += 1 }
+						}
+					}); if (image_count > 0 || iframe_count > 0 || rocketlazy_count > 0) { lazyLoadInstance.update() }
+				}); var b = document.getElementsByTagName("body")[0]; var config = { childList: !0, subtree: !0 }; observer.observe(b, config)
+			}
+		}, !1)</script>
+	<script data-no-minify="1" async="" src="{% static 'js/lazyload.min.js' %}"></script>
+	<script>"use strict"; function wprRemoveCPCSS() { var preload_stylesheets = document.querySelectorAll('link[data-rocket-async="style"][rel="preload"]'); if (preload_stylesheets && 0 < preload_stylesheets.length) for (var stylesheet_index = 0; stylesheet_index < preload_stylesheets.length; stylesheet_index++) { var media = preload_stylesheets[stylesheet_index].getAttribute("media") || "all"; if (window.matchMedia(media).matches) return void setTimeout(wprRemoveCPCSS, 200) } var elem = document.getElementById("rocket-critical-css"); elem && "remove" in elem && elem.remove() } window.addEventListener ? window.addEventListener("load", wprRemoveCPCSS) : window.attachEvent && window.attachEvent("onload", wprRemoveCPCSS);</script>
+	<script>(() => { class RocketElementorPreload { constructor() { this.deviceMode = document.createElement("span"), this.deviceMode.id = "elementor-device-mode-wpr", this.deviceMode.setAttribute("class", "elementor-screen-only"), document.body.appendChild(this.deviceMode) } t() { let t = getComputedStyle(this.deviceMode, ":after").content.replace(/"/g, ""); this.animationSettingKeys = this.i(t), document.querySelectorAll(".elementor-invisible[data-settings]").forEach((t => { const e = t.getBoundingClientRect(); if (e.bottom >= 0 && e.top <= window.innerHeight) try { this.o(t) } catch (t) { } })) } o(t) { const e = JSON.parse(t.dataset.settings), i = e.m || e.animation_delay || 0, n = e[this.animationSettingKeys.find((t => e[t]))]; if ("none" === n) return void t.classList.remove("elementor-invisible"); t.classList.remove(n), this.currentAnimation && t.classList.remove(this.currentAnimation), this.currentAnimation = n; let o = setTimeout((() => { t.classList.remove("elementor-invisible"), t.classList.add("animated", n), this.l(t, e) }), i); window.addEventListener("rocket-startLoading", (function () { clearTimeout(o) })) } i(t = "mobile") { const e = [""]; switch (t) { case "mobile": e.unshift("_mobile"); case "tablet": e.unshift("_tablet"); case "desktop": e.unshift("_desktop") }const i = []; return ["animation", "_animation"].forEach((t => { e.forEach((e => { i.push(t + e) })) })), i } l(t, e) { this.i().forEach((t => delete e[t])), t.dataset.settings = JSON.stringify(e) } static run() { const t = new RocketElementorPreload; requestAnimationFrame(t.t.bind(t)) } } document.addEventListener("DOMContentLoaded", RocketElementorPreload.run) })();</script>
+	<noscript>
+		<link rel='stylesheet' id='wp-block-library-css'
+			href='https://www.maximhealthcare.com/wp-includes/css/dist/block-library/style.min.css?ver=6.7.2'
+			type='text/css' media='all' />
+		<link data-minify="1" rel='stylesheet' id='max-typekit-css'
+			href='https://www.maximhealthcare.com/wp-content/cache/min/1/mxw1gov.css?ver=1732036027' type='text/css'
+			media='all' />
+		<link data-minify="1" rel='stylesheet' id='max-base-styles-css'
+			href='https://www.maximhealthcare.com/wp-content/cache/background-css/1/www.maximhealthcare.com/wp-content/cache/min/1/wp-content/themes/maxhealth-2022/dist/css/app.min.css?ver=1732036027&wpr_t=1742191443'
+			type='text/css' media='all' />
+		<link data-minify="1" rel='stylesheet' id='yext-answers-styles-css'
+			href='https://www.maximhealthcare.com/wp-content/cache/min/1/answers-search-bar/v1.2/answers.css?ver=1732036027'
+			type='text/css' media='all' />
+		<link rel='stylesheet' id='ctn-stylesheet-css'
+			href='https://www.maximhealthcare.com/wp-content/plugins/current-template-name/assets/css/ctn-style.css?ver=6.7.2'
+			type='text/css' media='all' />
+	</noscript>
+
+</body>
+
+</html>
+{% endblock %}

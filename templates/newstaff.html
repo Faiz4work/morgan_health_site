@@ -1,0 +1,259 @@
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Apply As New Staff | Mercy Medical Staffing</title>
+    
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/app.min.css' %}">
+    <style>
+        .footer {
+            background-color: #3255a4;
+            color: white;
+            padding: 20px 0;
+            position: relative;
+            margin-top: 50px;
+        }
+        .footer-logo {
+            max-width: 100px;
+            opacity: 0.5;
+            position: absolute;
+            right: 50px;
+            bottom: 20px;
+        }
+        .footer p {
+            margin: 0;
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.9);
+        }
+        .top-nav-links {
+            background-color: #3255a4;
+            padding: 10px 0;
+        }
+        .top-nav-links a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 14px;
+        }
+        .top-nav-links a:hover {
+            text-decoration: underline;
+        }
+        .main-nav {
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .btn-secondary {
+            background-color: #3255a4;
+            border-color: #3255a4;
+            color: white !important;
+        }
+        .btn-secondary:hover {
+            background-color: #264282;
+            border-color: #264282;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header" class="">
+        <div class="nav-wrapper">
+            <nav class="top navbar navbar-expand-lg">
+                <div class="container">
+                    <div class="collapse navbar-collapse col-12 text-center text-lg-right justify-content-center justify-content-lg-end" id="topNavDropdown">
+                        <div class="ml-auto d-flex text-center text-lg-right justify-content-center" style="font-size: 1rem; font-weight: 700;">
+                            <span>Translate this webpage:</span>
+                            <div id="google_translate_element" class="custom-pt-select"></div>
+                        </div>
+                        <ul class="navbar-nav">
+                            <li id="menu-item-698" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-698">
+                                <a href="#">Referral Partners</a>
+                            </li>
+                            <li id="menu-item-14" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14">
+                                <a href="#">Patient Portal</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <nav class="main navbar navbar-expand-lg">
+                <div class="container">
+                    <div class="brand-wrapper">
+                        <a class="navbar-brand" href="{% url 'home' %}" title="Mercy Medical Staffing">
+                            <img width="2539" height="974" src="{% static 'images/new_logo.jpg' %}" alt="Logo" style="width: 200px;height:80px;">
+                        </a>
+                        <button type="button" class="main-toggle navbar-toggler collapsed" data-toggle="offcanvas" data-target="#mainNavDropdown">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="main-nav">
+                        <div class="navbar-collapse offcanvas-collapse" id="mainNavDropdown">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">About Us</a>
+                                </li>
+                                <li class="nav-item btn btn-secondary">
+                                    <a href="{% url 'newstaff' %}" class="nav-link">Apply As a new staff</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="pb-5">
+        <section class="front-page-banner">
+            <div class="banner-wrapper">
+                <div class="container py-5">
+                    <div class="row align-items-center">
+                        <div class="col-12">
+                            <h1 class="title text-center">Join Our Healthcare Team</h1>
+                            <p class="text-center">Make a difference in people's lives by becoming part of our dedicated healthcare team.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        {% if message %}
+        <center>
+            <h2 class="alert alert-success" role="alert" style="display: inline-block; padding: 10px; border-radius: 5px; background-color: #3255a4; color: white;">
+                {{ message }}
+            </h2>
+        </center>
+        {% endif %}
+        <section class="application-form py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8">
+                        <div class="card">
+                            <div class="card-body p-4">
+
+                                
+
+                                <h2 class="card-title text-center mb-4">Staff Application Form</h2>
+
+
+                                <form method="POST" action="{% url 'newstaff' %}" class="needs-validation" novalidate>
+                                    {% csrf_token %}
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="firstName">First Name*</label>
+                                            <input type="text" class="form-control" id="firstName" name="first_name" required>
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="lastName">Last Name*</label>
+                                            <input type="text" class="form-control" id="lastName" name="last_name" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="email">Email Address*</label>
+                                        <input type="email" class="form-control" id="email" name="email" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="profession">Profession*</label>
+                                        <select class="form-control" id="profession" name="profession" required>
+                                            <option value="">Select your profession</option>
+                                            <option value="registered_nurse">Registered Nurse</option>
+                                            <option value="licensed_practical_nurse">Licensed Practical Nurse</option>
+                                            <option value="certified_nursing_assistant">Certified Nursing Assistant</option>
+                                            <option value="physical_therapist">Physical Therapist</option>
+                                            <option value="occupational_therapist">Occupational Therapist</option>
+                                            <option value="speech_therapist">Speech Therapist</option>
+                                            <option value="home_health_aide">Home Health Aide</option>
+                                            <option value="other">Other Healthcare Professional</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="age">Age*</label>
+                                            <input type="number" class="form-control" id="age" name="age" min="18" max="100" required>
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="gender">Gender*</label>
+                                            <select class="form-control" id="gender" name="gender" required>
+                                                <option value="">Select gender</option>
+                                                <option value="male">Male</option>
+                                                <option value="female">Female</option>
+                                                <option value="other">Other</option>
+                                                <option value="prefer_not_to_say">Prefer not to say</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="phone">Contact Number*</label>
+                                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="1234567890" required>
+                                        <small class="form-text text-muted">Format: 1234567890</small>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="experience">Years of Experience*</label>
+                                        <input type="number" class="form-control" id="experience" name="experience" min="0" max="50" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="message">Additional Information</label>
+                                        <textarea class="form-control" id="message" name="message" rows="4" placeholder="Tell us about your experience and why you'd like to join our team"></textarea>
+                                    </div>
+
+                                    <div class="text-center mt-4">
+                                        <button type="submit" class="btn btn-primary btn-lg">Submit Application</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>&copy; {% now "Y" %} Mercy Medical Staffing. All rights reserved.</p>
+                </div>
+            </div>
+            <!-- <img src="{% static 'images/footer-logo.png' %}" alt="Footer Logo" class="footer-logo"> -->
+        </div>
+    </footer>
+
+    {% block extra_js %}
+    <script src="{% static 'js/app.min.js' %}"></script>
+    <script>
+        // Form validation
+        (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+                var forms = document.getElementsByClassName('needs-validation');
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener('submit', function(event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+    {% endblock %}
+
+</body>
+</html>
+{% endblock %}
